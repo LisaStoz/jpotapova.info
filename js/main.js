@@ -8,7 +8,7 @@
             
             var imgElement = tile.find('img');                        
             var attr = imgElement.attr('data-src');             
-            if (typeof attr !== 'undefined' && attr !== false) {                
+            if (typeof(attr) !== 'undefined' && attr !== false) {                
                 imgElement.attr('src', attr);
             }                       
             
@@ -22,7 +22,7 @@
             tile.addClass('hidden-tile').removeClass('animated');
             var imgElement = tile.find('img');            
             var attr = imgElement.attr('src');            
-            if (typeof attr !== 'undefined' && attr !== false) {                
+            if (typeof(attr) !== 'undefined' && attr !== false) {                
                 imgElement.attr('data-src', attr);
                 imgElement.attr('src', attr);
             }                       
