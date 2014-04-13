@@ -1,167 +1,183 @@
-;(function($, window, document, undefined) {
+;(function($, window, document, undefined) {        
+    
+    var app = {
+        
+        duration: 500,
+        
+        init: function() {                         
+            app.hint.init();
+            app.contentLoad.init();
+        },
+        
+        contentLoad: {
+            
+            init: function() {
+                try {
+                    var mq = window.matchMedia("(min-width: 480px)");            
 
-    $(document).ready(function() {
-        
-        var duration = 500;                
-                                                           
-        function loadTile(tile) {
+                    if (mq.matches) {
+                        app.contentLoad.twoColumnsBehaviour();
+                    }
+                    else {
+                        app.contentLoad.oneColumnBehaviour();
+                    }
+
+                    mq.addListener(function(e){
+                        if (e.matches) {
+                            app.contentLoad.twoColumnsBehaviour();
+                        } else {
+                            app.contentLoad.oneColumnBehaviour();
+                        }
+                    });
+                }
+                catch(err) {
+                    app.contentLoad.oneColumnBehaviour();
+                } 
+            },
             
-            var imgElement = tile.find('img');                        
-            var attr = imgElement.attr('data-src');             
-            if (typeof(attr) !== 'undefined' && attr !== false) {                
-                imgElement.attr('src', attr);
-            }                       
-            
-            setTimeout(function(){
-                tile.removeClass('hidden-tile').addClass('animated');                
-            }, 20);
-            
-        }
-        
-        function hideTile(tile) {
-            tile.addClass('hidden-tile').removeClass('animated');
-            var imgElement = tile.find('img');            
-            var attr = imgElement.attr('src');            
-            if (typeof(attr) !== 'undefined' && attr !== false) {                
-                imgElement.attr('data-src', attr);
-                imgElement.attr('src', attr);
-            }                       
-        }
-        
-        function displayHints(w) {
-            if (w.scrollTop() > 500) {
-                $('.back-to-top').fadeIn(duration);
-            } else {
-                $('.back-to-top').fadeOut(duration);
-            }
-        }                
-        
-        function twoColumnsBehaviour() {
-            $(".view-large").each(function(){
-                var item = $(this);  
-                item.off('click');
-                item.on('click', function(e){                    
-                    e.preventDefault();                    
-                    $.fancybox.open({
-                        'href': item.attr('href'),
-                        'closeBtn': false,
-                        'closeClick': true
-                    });                  
-                });
-            }); 
-            
-            
-            $(window).scroll(function() {                                
+            twoColumnsBehaviour: function() {
                 
-                displayHints($(this));                                     
+                $(".view-large").each(function(){
+                    var item = $(this);  
+                    item.off('click');
+                    item.on('click', function(e){                    
+                        e.preventDefault();                    
+                        $.fancybox.open({
+                            'href': item.attr('href'),
+                            'closeBtn': false,
+                            'closeClick': true
+                        });                  
+                    });
+                }); 
+            
+                $(window).scroll(function() {                                
                 
-                clearTimeout($.data(this, 'scrollTimer'));
-                $.data(this, 'scrollTimer', setTimeout(function() {                                        
-                                        
-                    if ( ($(window).scrollTop() + $(window).height()) > ($(document).height() - 500) ) {                                                
+                    app.hint.show($(this));                                     
 
-                        var yearBox = $('.year-box .hidden-tile').first().closest('.year-box');
+                    clearTimeout($.data(this, 'scrollTimer'));
+                    $.data(this, 'scrollTimer', setTimeout(function() {                                        
 
-                        yearBox.fadeIn(function() {                                                       
-
-                            loadTile(yearBox.find('.right-row .hidden-tile').first());
-                            loadTile(yearBox.find('.left-row .hidden-tile').first());
-
-                            var difference = yearBox.find('.left-row').height() - yearBox.find('.right-row').height();
-                            var smthToLoad = true;
-                            while ((Math.abs(difference) > 300) && (yearBox.find('.hidden-tile').length > 0) && smthToLoad) {
-
-                                if (difference > 0) {
-                                    yearBox.find('.right-row .hidden-tile').first().removeClass('hidden-tile').addClass('animated');
-                                    if (yearBox.find('.right-row .hidden-tile').length === 0) {
-                                        smthToLoad = false;
-                                    }
+                        if ( ($(window).scrollTop() + $(window).height()) > ($(document).height() - 500) ) {                                                
+                                                                                    
+                            var tile = $('.hidden-tile').first();                                                        
+                            var yearBox = tile.closest('.year-box');
+                            var leftHeight = yearBox.find('.left-row').height();
+                            var rightHeight = yearBox.find('.right-row').height();
+                            
+                            if ( yearBox.find('.left-row .hidden-tile').length > 0 ) {
+                                if ( (leftHeight <= rightHeight) || (yearBox.find('.right-row .hidden-tile').length === 0) ) {
+                                    app.tile.load(yearBox.find('.left-row .hidden-tile').first());                           
                                 }
                                 else {
-                                    yearBox.find('.left-row .hidden-tile').first().removeClass('hidden-tile').addClass('animated');
-                                    if (yearBox.find('.left-row .hidden-tile').length === 0) {
-                                        smthToLoad = false;
-                                    }
+                                    app.tile.load(yearBox.find('.right-row .hidden-tile').first());                           
                                 }
-
-                                difference = yearBox.find('.left-row').height() - yearBox.find('.right-row').height();                                
                             }
-                            
-                            
+                            else {
+                                app.tile.load(yearBox.find('.right-row .hidden-tile').first());                           
+                            }
+                                                      
+                            yearBox.fadeIn();
+                        }
 
-                        });
-                    }
-                    
-                    
-                }, 250));  
-                                             
-            });
-            
-            
-        }
-        
-        function oneColumnBehaviour() {
-            $('.right-row .info-tile').not('.hidden-tile').each(function(){
-                hideTile($(this));
-            });
-            
-            $(".view-large").off('click');
-            $(".view-large").on('click', function(e){
-                e.preventDefault();
-            });
-            
-            $(window).scroll(function() {                                
+                    }, 20));  
 
-                displayHints($(this));                
-                
-                clearTimeout($.data(this, 'scrollTimer'));
-                $.data(this, 'scrollTimer', setTimeout(function() {
-
-                    if ( ($(window).scrollTop() + $(window).height()) > ($(document).height() - 600) ) {
-                        
-                        var yearBox = $('.year-box .hidden-tile').first().closest('.year-box');
-                        
-                        yearBox.fadeIn(function() {                                                       
-                            
-                            loadTile(yearBox.find('.hidden-tile').first());                            
-                                                                                                                                                                                                                                                                                                                                     
-                        });
-                    }
-
-                }, 250));
-                
-                
-            });
-        } 
-        
-        $('.back-to-top').on('click', function(event) {
-            event.preventDefault();
-            $('html, body').animate({scrollTop: 0}, duration);
-        });               
-                
-        try
-        {
-            var mq = window.matchMedia("(min-width: 480px)");            
+                });
+            },
             
-            if (mq.matches) {
-                twoColumnsBehaviour(duration);
+            oneColumnBehaviour: function() {
+                
+                $('.right-row .info-tile').not('.hide').each(function(){
+                    app.tile.hide($(this));
+                });
+
+                $(".view-large").off('click');
+                $(".view-large").on('click', function(e){
+                    e.preventDefault();
+                });
+
+                $(window).scroll(function() {                                
+
+                    app.hint.show($(this));                
+
+                    clearTimeout($.data(this, 'scrollTimer'));
+                    $.data(this, 'scrollTimer', setTimeout(function() {
+
+                        if ( ($(window).scrollTop() + $(window).height()) > ($(document).height() - 600) ) {
+
+                            var yearBox = $('.year-box .hide').first().closest('.year-box');
+
+                            yearBox.fadeIn(function() {                                                       
+
+                                app.tile.load(yearBox.find('.hide').first());                            
+
+                            });
+                        }
+
+                    }, 250));
+
+
+                });
             }
-            else {
-                oneColumnBehaviour(duration);
-            }
+                                    
+        },                
+                      
+        hint: {
             
-            mq.addListener(function(e){
-                if (e.matches) {
-                    twoColumnsBehaviour(duration);
+            init: function() {
+                $('.back-to-top').on('click', function(event) {
+                    event.preventDefault();
+                    $('html, body').animate({scrollTop: 0}, app.duration);
+                });
+            },
+            
+            show: function(w) {            
+                if (w.scrollTop() > 500) {
+                    $('.back-to-top').fadeIn(app.duration);
                 } else {
-                    oneColumnBehaviour(duration);
+                    $('.back-to-top').fadeOut(app.duration);
                 }
-            });
-        }
-        catch(err) {
-            oneColumnBehaviour(duration);
-        } 
-                                      
+            }          
+            
+        },   
+        
+        tile: {
+            
+            
+            load: function(tile) {
+                
+                var imgElement = tile.find('img');                        
+                var attr = imgElement.attr('data-src');  
+                console.log(imgElement);
+                console.log(attr);
+                if (typeof(attr) !== 'undefined' && attr !== false) {                
+                    imgElement.attr('src', attr);
+                    console.log('attr added');
+                }                       
+
+                setTimeout(function(){
+                    tile.removeClass('hidden-tile').addClass('animated');                
+                    return true;
+                }, 20);
+            
+            },
+            
+            hide: function(tile) {
+                tile.addClass('hidden-tile').removeClass('animated');
+                var imgElement = tile.find('img');            
+                var attr = imgElement.attr('src');            
+                if (typeof(attr) !== 'undefined' && attr !== false) {                
+                    imgElement.attr('data-src', attr);
+                    imgElement.attr('src', attr);
+                    return true;
+                }                       
+            }
+            
+        }                        
+                
+    };
+
+    $(document).ready(function() {        
+        app.init();              
     });
 
 })(jQuery, window, document);
