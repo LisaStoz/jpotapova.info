@@ -102,7 +102,7 @@
                     clearTimeout($.data(this, 'scrollTimer'));
                     $.data(this, 'scrollTimer', setTimeout(function() {
 
-                        if ( ($(window).scrollTop() + $(window).height()) > ($(document).height() - 300) ) {
+                        if ( ($(window).scrollTop() + $(window).height()) > ($(document).height() - 600) ) {
 
                             var yearBox = $('.year-box .hidden-tile').first().closest('.year-box');
 

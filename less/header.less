@@ -5,12 +5,18 @@
     .spacing(padding, top);    
     .spacing(padding, bottom, 5);        
             
-    .logo {          
-        .size-up(22);
+    .logo {      
+        
+        .size-up(16);                               
         font-size: @calculated-size;
         .font-identity;                
         .no-underline;    
         .spacing(margin, bottom);
+        
+        @media @mobile-max {
+            .size-up(22);
+            font-size: @calculated-size;
+        }
     }
     
 }
