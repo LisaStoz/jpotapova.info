@@ -86,7 +86,7 @@
             
             oneColumnBehaviour: function() {
                 
-                $('.right-row .info-tile').not('.hide').each(function(){
+                $('.right-row .info-tile').not('.hidden-tile').each(function(){
                     app.tile.hide($(this));
                 });
 
@@ -102,18 +102,18 @@
                     clearTimeout($.data(this, 'scrollTimer'));
                     $.data(this, 'scrollTimer', setTimeout(function() {
 
-                        if ( ($(window).scrollTop() + $(window).height()) > ($(document).height() - 600) ) {
+                        if ( ($(window).scrollTop() + $(window).height()) > ($(document).height() - 300) ) {
 
-                            var yearBox = $('.year-box .hide').first().closest('.year-box');
+                            var yearBox = $('.year-box .hidden-tile').first().closest('.year-box');
 
                             yearBox.fadeIn(function() {                                                       
 
-                                app.tile.load(yearBox.find('.hide').first());                            
+                                app.tile.load(yearBox.find('.hidden-tile').first());                            
 
                             });
                         }
 
-                    }, 250));
+                    }, 20));
 
 
                 });
