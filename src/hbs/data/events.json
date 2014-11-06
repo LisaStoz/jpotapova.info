@@ -1,0 +1,30 @@
+{
+  "title": "Events",
+  "intro": "...",
+  "records": [
+    {
+      "title": "Grunt",
+      "role": "Author &amp; presenter",
+      "description": "A guest talk about Grunt task runner where I demonstrated what it is, what are the benefits of using a task runner, how to install and use Grunt and explained the meaning of every step in detail.",
+      "type": "Guest talk",
+      "place": {
+        "title": "Makers Academy",
+        "location": "London",
+        "link": "http://example.com"
+      },
+      "date": "October 2014"
+    },
+    {
+      "title": "Behaviour Driven Development with Jasmine",
+      "role": "Author &amp; presenter",
+      "description": "",
+      "type": "Labcamp",
+      "place": {
+        "title": "Reply Ltd",
+        "location": "London",
+        "link": "http://example.com"
+      },
+      "date": "September 2014"
+    }
+  ]
+}

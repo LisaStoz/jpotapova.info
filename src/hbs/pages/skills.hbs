@@ -1,0 +1,60 @@
+---
+title: <%= skills.title %>
+intro: <%= skills.intro %>
+nav.top: <% _.map(nav.top, function(navItem){ if (navItem.label === skills.title) navItem.active = true; return navItem; }); %>
+---
+{{#with skills}}
+
+  <div class="row skills-list">
+
+    {{#if records-left}}
+      <div class="small-6 columns">
+        {{#each types-left}}
+
+          {{#if label}}
+            <h3>{{{label}}}</h3>
+          {{/if}}
+
+          {{#if info}}
+            <p>{{{info}}}</p>
+          {{/if}}
+
+          {{#if items}}
+            <ul>
+              {{#each items}}
+                <li>{{{.}}}</li>
+              {{/each}}
+            </ul>
+          {{/if}}
+
+        {{/each}}
+      </div>
+    {{/if}}
+
+    {{#if records-right}}
+      <div class="small-6 columns">
+        {{#each types-right}}
+
+          {{#if label}}
+            <h3>{{{label}}}</h3>
+          {{/if}}
+
+          {{#if info}}
+            <p>{{{info}}}</p>
+          {{/if}}
+
+          {{#if items}}
+            <ul>
+              {{#each items}}
+                <li>{{{.}}}</li>
+              {{/each}}
+            </ul>
+          {{/if}}
+
+        {{/each}}
+      </div>
+    {{/if}}
+
+  </div>
+
+{{/with}}

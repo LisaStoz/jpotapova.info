@@ -1,5 +1,5 @@
-/node_modules/
-/nbproject/
-._*
-/css/main.min.css
-/demo
+*.DS_Store
+/css/*
+/bower_components/*
+/node_modules/*
+/app/*

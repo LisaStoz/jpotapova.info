@@ -1,0 +1,87 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jelizaveta Potapova{{#if title}} - {{title}}{{/if}}</title>
+    <link rel="stylesheet" href="css/app.css" />
+    <script src="bower_components/modernizr/modernizr.js"></script>
+  </head>
+  <body>
+
+    <header>
+
+      <nav class="top-bar" data-topbar role="navigation">
+
+        <div class="row">
+
+          <ul class="title-area">
+            <li class="name">
+              <h1><a href="index.html">Jelizaveta Potapova</a></h1>
+            </li>
+            <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+          </ul>
+
+          {{#if nav.top}}
+            <section class="top-bar-section">
+              <ul class="right">
+                {{#each nav.top}}
+                <li class="{{#if active}}active{{/if}}"><a href="{{link}}">{{label}}</a></li>
+                {{/each}}
+              </ul>
+            </section>
+          {{/if}}
+
+        </div>
+
+      </nav>
+    </header>
+
+    <main role="main">
+      <div class="row">
+
+          <div class="small-3 columns">
+            <img class="th" src="img/lisa.jpg">
+
+            {{#if nav.side.cv.label}}
+            <a class="label" href="{{nav.side.cv.link}}">{{nav.side.cv.label}}</a><br>
+            {{/if}}
+
+            {{#if nav.side.contact.label}}
+            <a class="label" href="{{nav.side.contact.link}}">{{nav.side.contact.label}}</a><br>
+            {{/if}}
+
+            {{#if nav.side.about.label}}
+            <a href="{{nav.side.about.link}}">{{nav.side.about.label}}</a>
+            {{/if}}
+
+            {{#if nav.profiles}}
+              <h6>Public Profiles</h6>
+              {{#each nav.profiles}}
+                <a class="label secondary" href="http://{{link}}" target="blank">{{label}}</a><br>
+              {{/each}}
+            {{/if}}
+
+          </div>
+
+          <div class="small-9 columns">
+            <h2>{{title}}</h2>
+            {{#if intro}}
+              <p>{{intro}}</p>
+            {{/if}}
+            {{> body}}
+          </div>
+
+      </div>
+
+    </main>
+
+    <footer class="panel">
+      <p class="small-text-center">&copy; jpotapova.info 2014</p>
+    </footer>
+
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

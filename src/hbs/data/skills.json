@@ -1,0 +1,118 @@
+{
+  "title": "Skills",
+  "intro": "I a significant number of skills that I have covers a wide range of development areas, especially in web development. All of the technologies, methodologies and tools listed below are actually the ones that I really worked with.",
+  "records-left": [{
+    "label": "Front End",
+    "info": "Technogies, frameworks &amp; concepts",
+    "items": [
+      "HTML(5)",
+      "CSS(3)",
+      "JavaScript",
+      "jQuery",
+      "Jasmine",
+      "Backbone.js",
+      "AngularJS",
+      "Handlebars",
+      "Underscore.js",
+      "Twitter Bootstrap 2 &amp; 3",
+      "Foundation 5",
+      "jQueryUI",
+      "SEO",
+      "Accesibility",
+      "HTML Microdata",
+      "Google Analytics"
+    ]
+  },
+  {
+    "label": "Workflow",
+    "info": "CSS and JavaScript preprocessors, workflow optimisation, tools",
+    "items": [
+      "LESS",
+      "Sass",
+      "CoffeeScript",
+      "Grunt",
+      "Git",
+      "SVN",
+      "NPM",
+      "Bower",
+      "JIRA & Confluence"
+    ]
+  },
+  {
+    "label": "Academic",
+    "info": "Learnt and practised in academic environment",
+    "items": [
+      "Java",
+      "C",
+      "C++",
+      "Prolog",
+      "Assembler",
+      "Oracle PL/SQL",
+      "Pascal",
+      "Object Pascal",
+      "Maple",
+      "Matlab"
+    ]
+  }],
+  "records-right": [
+    {
+      "label": "Back End",
+      "info": "Languages, frameworks, templating engines",
+      "items": [
+        "PHP(5)",
+        "CodeIgniter",
+        "Python",
+        "Pylons",
+        "Node.js",
+        "Express",
+        "Mako",
+        "Smarty",
+        "JSP"
+      ]
+    },
+    {
+      "label": "Methodologies",
+      "info": "Approaches &amp; concepts",
+      "items": [
+        "TDD &amp; BDD",
+        "Agile",
+        "Scrum",
+        "OOP",
+        "MVC",
+        "Progressive Enhancement",
+        "Responsive Web Design",
+        "Mobile First Web Design",
+        "OOCSS"
+      ]
+    },
+    {
+      "label": "Data",
+      "info": "Databases and data formats",
+      "items": [
+        "MySQL",
+        "MongoDB",
+        "XML",
+        "JSON",
+        "YAML"
+      ]
+    },
+    {
+      "label": "CMS",
+      "items": [
+        "hybris",
+        "Wordpress",
+        "Ghost"
+      ]
+    },
+    {
+      "label": "Other",
+      "info": "Other strong and occasionally useful skills",
+      "items": [
+        "Reveal.js",
+        "MS Excel",
+        "MS Word",
+        "MS Power Point"
+      ]
+    }
+  ]
+}

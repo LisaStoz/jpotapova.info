@@ -1,0 +1,29 @@
+h2 {
+    margin-top: 0;
+}
+
+h3 {
+  color: $dark;
+}
+
+.top-bar {
+  .row {
+    width: $row-width;
+  }
+}
+
+main {
+  margin: $block-grid-default-spacing 0;
+}
+
+footer {
+  &.panel {
+    margin-bottom: 0;
+  }
+}
+
+.skills-list {
+  .columns:first-child {
+    border-right: 1px solid $white-smoke;
+  }
+}

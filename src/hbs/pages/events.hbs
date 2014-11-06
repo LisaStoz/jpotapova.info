@@ -1,0 +1,25 @@
+---
+title: <%= events.title %>
+intro: <%= events.intro %>
+---
+{{#with events}}
+
+  {{#each records}}
+    <div>
+        {{#if title}}
+          <h3>{{title}}</h3>
+        {{/if}}
+
+        {{#if role}}
+        <h4>{{{role}}}</h4>
+        {{/if}}
+
+        {{#if description}}
+        <p>{{description}}</p>
+        {{/if}}
+
+        <p>{{type}}{{#if place.title}} @ {{#if place.link}}<a href="{{place.link}}">{{/if}}{{place.title}}{{#if place.link}}</a>{{/if}}{{#if place.location}}, {{place.location}}{{/if}}{{/if}}{{#if date}} in {{date}}{{/if}}</p>
+    </div>
+  {{/each}}
+
+{{/with}}

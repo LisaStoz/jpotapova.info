@@ -1,0 +1,73 @@
+{
+  "top": [
+    {
+      "label": "Education",
+      "link": "education.html",
+      "active": false
+    },
+    {
+      "label": "Experience",
+      "link": "experience.html",
+      "active": false
+    },
+    {
+      "label": "Projects",
+      "link": "projects.html",
+      "active": false
+    },
+    {
+      "label": "Skills",
+      "link": "skills.html",
+      "active": false
+    },
+    {
+      "label": "Events",
+      "link": "events.html",
+      "active": false
+    }
+  ],
+  "profiles": [
+    {
+      "label": "LinkedIn",
+      "link": "www.linkedin.com/in/jpotapova"
+    },
+    {
+      "label": "GitHub",
+      "link": "github.com/LisaStoz"
+    },
+    {
+      "label": "Twitter",
+      "link": "twitter.com/LisaStoz"
+    },
+    {
+      "label": "StackOverflow",
+      "link": "stackoverflow.com/users/2424355/lisa-stoz"
+    },
+    {
+      "label": "CodeCanyon",
+      "link": "codecanyon.net/user/LisaStoz"
+    },
+    {
+      "label": "CodeWars",
+      "link": "www.codewars.com/users/LisaStoz"
+    },
+    {
+      "label": "Code School",
+      "link": "www.codeschool.com/users/898011"
+    }
+  ],
+  "side": {
+    "cv": {
+      "label": "Download my CV",
+      "link": ""
+    },
+    "contact": {
+      "label": "Get in touch",
+      "link": ""
+    },
+    "about": {
+      "label": "Me, why I love web developement and how this all happened",
+      "link": ""
+    }
+  }
+}
