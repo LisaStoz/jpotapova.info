@@ -15,7 +15,7 @@ intro: <%= events.intro %>
         {{/if}}
 
         {{#if description}}
-        <p>{{description}}</p>
+        {{{description}}}
         {{/if}}
 
         <p>{{type}}{{#if place.title}} @ {{#if place.link}}<a href="{{place.link}}">{{/if}}{{place.title}}{{#if place.link}}</a>{{/if}}{{#if place.location}}, {{place.location}}{{/if}}{{/if}}{{#if date}} in {{date}}{{/if}}</p>

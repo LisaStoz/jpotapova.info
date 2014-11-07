@@ -5,24 +5,24 @@
     {
       "title": "Grunt",
       "role": "Author &amp; presenter",
-      "description": "A guest talk about Grunt task runner where I demonstrated what it is, what are the benefits of using a task runner, how to install and use Grunt and explained the meaning of every step in detail.",
+      "description": "<p>A talk about <a href=''>Grunt task runner</a> where I demonstrated what it is, what are the benefits of using a task runner, how to install and use Grunt and explained the meaning of every step in detail.<br>I wrote <a href=''>a post about this talk</a> on my blog.</p>",
       "type": "Guest talk",
       "place": {
         "title": "Makers Academy",
         "location": "London",
-        "link": "http://example.com"
+        "link": "http://www.makersacademy.com/"
       },
       "date": "October 2014"
     },
     {
       "title": "Behaviour Driven Development with Jasmine",
       "role": "Author &amp; presenter",
-      "description": "",
+      "description": "<p>A Labcamp is an event starting with a presentation which is then followed by a friendly competition. During the presentation I made a very brief introduction to Test Driven Developement, compared to Behaviour Driven Developement and demonstrated the basics of <a href='http://jasmine.github.io/'>Jasmine framework</a>. For the competition I prepared a selection of katas and participants were invited to write quality tests for each of the exercise.<br>You can read more <a href=''>about this Labcamp</a> on my blog.</p>",
       "type": "Labcamp",
       "place": {
         "title": "Reply Ltd",
         "location": "London",
-        "link": "http://example.com"
+        "link": "http://www.reply.eu/en/"
       },
       "date": "September 2014"
     }

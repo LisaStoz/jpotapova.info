@@ -9,7 +9,7 @@ nav.top: <% _.map(nav.top, function(navItem){ if (navItem.label === skills.title
 
     {{#if records-left}}
       <div class="small-6 columns">
-        {{#each types-left}}
+        {{#each records-left}}
 
           {{#if label}}
             <h3>{{{label}}}</h3>
@@ -33,7 +33,7 @@ nav.top: <% _.map(nav.top, function(navItem){ if (navItem.label === skills.title
 
     {{#if records-right}}
       <div class="small-6 columns">
-        {{#each types-right}}
+        {{#each records-right}}
 
           {{#if label}}
             <h3>{{{label}}}</h3>
