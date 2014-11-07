@@ -1,6 +1,6 @@
 {
   "title": "Events",
-  "intro": "...",
+  "intro": "I like to speak, share my skills with an audience and coach young developers. Below is a list of events I took part in as a presenter, organiser or a coach. For my talks I prepare all the content myself and carefully select the exercises. Sometimes I also enjoy to take part in programming competitions.",
   "records": [
     {
       "title": "Grunt",
@@ -25,6 +25,66 @@
         "link": "http://www.reply.eu/en/"
       },
       "date": "September 2014"
+    },
+    {
+      "title": "Behaviour Driven Development with Jasmine",
+      "role": "Organiser &amp; author, mentor",
+      "description": "<p>A workshop where I taught Test Driven Development and Behaviour Driven Development. Participants went through a step-by-step exercise on building Javascript validation in BDD style using <a href='http://jasmine.github.io/'>Jasmine framework.</a></p>",
+      "type": "Workshop",
+      "place": {
+        "title": "Open Reply UK",
+        "location": "London",
+        "link": "http://www.reply.eu/en/"
+      },
+      "date": "August 2014"
+    },
+    {
+      "title": "HTML, CSS &amp; JavaScript",
+      "role": "Coach",
+      "description": "<p>Series of workshops where I coached beginner web developers by helping them with HTML, CSS and Javascript.</p>",
+      "type": "Series of Workshops",
+      "place": {
+        "title": "OpenTechSchool",
+        "location": "London",
+        "link": "http://"
+      },
+      "date": "August-September 2014"
+    },
+    {
+      "title": "HTML, CSS, JavaScript &amp; Python",
+      "role": "Coach",
+      "description": "<p>Series of workshops where I helped beginner web developers with HTMl, CSS, JavaScript and Python by working through the exercises ....</p>",
+      "type": "Series of Workshops",
+      "place": {
+        "title": "Codebar",
+        "location": "London",
+        "link": "http://"
+      },
+      "date": "December 2013 - February 2014"
+    },
+    {
+      "title": "Mind Sports Olympiad - Programming Competition",
+      "role": "4th Place Winnner",
+      "description": "<p>Programming is one of the competitions within a huge and exciting event - <a href=''>Mind Sports Olympiad</a>. Participants were given 3 hours to solve 4 algorithmic tasks in a programming language of their preference. Please checkout this GitHub repository to find out more. After great 3 hours of programming I came 4th.</p>",
+      "type": "Programming Competition",
+      "place": {
+        "title": "Mind Sports Olympiad",
+        "location": "London",
+        "link": "http://"
+      },
+      "date": "August 2013"
+
+    },
+    {
+      "title": "Open Team Programming Collegiate Cup",
+      "role": "Participant",
+      "description": "<p>This a programming competition for the teams, where participants solve the puzzles remotely and submit their solutions through the system. Solution is evaluated not only by the fact whether it produces correct results, but also by its performance. All the tasks required to come up with complex algorithms.</p>",
+      "type": "Programming Competition",
+      "place": {
+        "title": "Open Team Programming Collegiate Cup",
+        "link": "http://"
+      },
+      "date": "2006 and 2007"
     }
   ]
 }
