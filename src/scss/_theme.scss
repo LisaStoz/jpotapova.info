@@ -6,6 +6,18 @@ h3 {
   color: $dark;
 }
 
+h4 {
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 0.5rem;
+}
+
+.intro {
+    margin-bottom: 2rem;
+}
+
 .top-bar {
   .row {
     width: $row-width;
@@ -26,4 +38,10 @@ footer {
   .columns:first-child {
     border-right: 1px solid $white-smoke;
   }
+}
+
+.record {
+  margin: 0;
+  padding: 1rem 0;
+  border-top: 1px solid $white-smoke;
 }

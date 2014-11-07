@@ -1,11 +1,11 @@
- ---
+---
 title: <%= events.title %>
 intro: <%= events.intro %>
 ---
 {{#with events}}
 
   {{#each records}}
-    <div>
+    <div class="record">
         {{#if title}}
           <h3>{{{title}}}</h3>
         {{/if}}
