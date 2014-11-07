@@ -1,1 +1,23 @@
-{}
+{
+  "title": "Experience",
+  "intro": "",
+  "records": [
+    {
+      "role": "Front End Mobile Developer",
+      "company": {
+        "title": "<a href='' target='_blank'>Reply Ltd</a>, trading division – <a href=''>Open Reply UK</a>",
+        "location": "London, UK"
+      },
+      "description": {
+        "points": [
+          "Create/maintain mobile and tablet-optimised websites;",
+          "Improve, configure and document frontend development technical workflow;",
+          "Voluntarily organise workshops and promote best practices;"
+        ]
+      },
+      "skills": "HTML, CSS, Javascript, jQuery, LESS, Sass, Grunt, Underscore.js, Handlebars, Jasmine, SVN, Git, JIRA, TDD, Scrum",
+      "dates": "Current role, started in April 2014"
+    }
+  ]
+
+}

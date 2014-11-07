@@ -4,6 +4,14 @@ intro: <%= education.intro %>
 ---
 {{#with education}}
 
-  {{> education-vu}}
+  {{#each records}}
+  <div>
+
+    {{#if title}}
+    <h3>{{title}}</h3>
+    {{/if}}
+
+  </div>
+  {{/each}}
 
 {{/with}}

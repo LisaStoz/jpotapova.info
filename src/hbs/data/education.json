@@ -1,4 +1,41 @@
 {
   "title": "Education",
-  "intro": "..."
+  "intro": "...",
+  "records": [
+    {
+      "school": "Vilnius University",
+      "title": "Computer Science",
+      "date": "2006 – 2010",
+      "description": "",
+      "image": ""
+    },
+    {
+      "school": "W3DevCampus",
+      "title": "Mobile Web 2: Applications",
+      "date": "2014",
+      "description": "",
+      "image": ""
+    },
+    {
+      "school": "MongoDB University",
+      "title": "MongoDB for Node.js Developers",
+      "date": "2014",
+      "description": "",
+      "image": ""
+    },
+    {
+      "school": "Google Analytics Academy",
+      "title": "Google Analytics Platform Principles",
+      "date": "2014",
+      "description": "",
+      "image": ""
+    },
+    {
+      "school": "Google Analytics Academy",
+      "title": "Digital Analytics Fundamentals",
+      "date": "2013",
+      "description": "",
+      "image": ""
+    }
+  ]
 }

@@ -1,4 +1,4 @@
----
+ ---
 title: <%= events.title %>
 intro: <%= events.intro %>
 ---
@@ -18,7 +18,7 @@ intro: <%= events.intro %>
         {{{description}}}
         {{/if}}
 
-        <p>{{type}}{{#if place.title}} @ {{#if place.link}}<a href="{{place.link}}">{{/if}}{{place.title}}{{#if place.link}}</a>{{/if}}{{#if place.location}}, {{place.location}}{{/if}}{{/if}}{{#if date}} in {{date}}{{/if}}</p>
+        <p>{{type}}{{#if place.title}} @ {{#if place.link}}<a href="{{place.link}}" target="_blank">{{/if}}{{place.title}}{{#if place.link}}</a>{{/if}}{{#if place.location}}, {{place.location}}{{/if}}{{/if}}{{#if date}} in {{date}}{{/if}}</p>
     </div>
   {{/each}}
 
