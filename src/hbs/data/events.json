@@ -5,7 +5,7 @@
     {
       "title": "Grunt",
       "role": "Author &amp; presenter",
-      "description": "<p>A talk about <a href='' target='_blank'>Grunt task runner</a> where I demonstrated what it is, what are the benefits of using a task runner, how to install and use Grunt and explained the meaning of every step in detail.<br>I wrote <a href='' target='_blank'>a post about this talk</a> on my blog.</p>",
+      "description": "<p>A talked about <a href='' target='_blank'>Grunt task runner</a> where I demonstrated what it is, what are the benefits of using a task runner, how to install and use Grunt and explained the meaning of every step in detail.<br>I wrote <a href='' target='_blank'>a post about this talk</a> on my blog.</p>",
       "type": "Guest talk",
       "place": {
         "title": "Makers Academy",
@@ -17,7 +17,7 @@
     {
       "title": "Behaviour Driven Development with Jasmine",
       "role": "Author &amp; presenter",
-      "description": "<p>A Labcamp is an event starting with a presentation which is then followed by a friendly competition. During the presentation I made a very brief introduction to Test Driven Developement, compared to Behaviour Driven Developement and demonstrated the basics of <a href='http://jasmine.github.io/' target='_blank'>Jasmine framework</a>. For the competition I prepared a selection of katas and participants were invited to write quality tests for each of the exercise.<br>You can read more <a href='' target='_blank'>about this Labcamp</a> on my blog.</p>",
+      "description": "<p>A Labcamp is an event starting with a presentation which is then followed by a friendly competition. For this particular Labcamp I prepared a presentation where I made a very brief introduction to Test Driven Developement, compared to Behaviour Driven Developement and demonstrated the basics of <a href='http://jasmine.github.io/' target='_blank'>Jasmine framework</a>. For the competition I prepared <a href=''>a selection of katas</a> and participants were invited to write quality tests for each of the exercise.<br>You can read more <a href='' target='_blank'>about this Labcamp</a> on my blog.</p>",
       "type": "Labcamp",
       "place": {
         "title": "Reply Ltd",
@@ -29,7 +29,7 @@
     {
       "title": "Behaviour Driven Development with Jasmine",
       "role": "Organiser &amp; author, mentor",
-      "description": "<p>A workshop where I taught Test Driven Development and Behaviour Driven Development. Participants went through a step-by-step exercise on building Javascript validation in BDD style using <a href='http://jasmine.github.io/' target='_blank'>Jasmine framework.</a></p>",
+      "description": "<p>A workshop where I taught Test Driven Development and Behaviour Driven Development in JavaScript. Participants went through <a href=''>a step-by-step exercise</a> on building Javascript validation in BDD style using <a href='http://jasmine.github.io/' target='_blank'>Jasmine framework.</a></p>",
       "type": "Workshop",
       "place": {
         "title": "Open Reply UK",
@@ -41,7 +41,7 @@
     {
       "title": "HTML, CSS &amp; JavaScript",
       "role": "Coach",
-      "description": "<p>Series of workshops where I coached beginner web developers with HTML, CSS and Javascript by working through <a href='' target='_blank'>the exercises</a> with them. The exercises were prepared by OpenTechSchool.</p>",
+      "description": "<p>Series of workshops where I helped beginner web developers with HTML, CSS and Javascript by working through <a href='' target='_blank'>the exercises</a> with them. The exercises were prepared by OpenTechSchool.</p>",
       "type": "Series of Workshops",
       "place": {
         "title": "OpenTechSchool",
@@ -53,7 +53,7 @@
     {
       "title": "HTML, CSS, JavaScript &amp; Python",
       "role": "Coach",
-      "description": "<p>Series of workshops where I helped beginner web developers with HTMl, CSS, JavaScript and Python by working through <a href='' target='_blank'>the exercises</a> with them. The exercises were prepared by Codebar founders.</p>",
+      "description": "<p>Series of workshops where I helped beginner web developers with HTML, CSS, JavaScript and Python by working through <a href='' target='_blank'>the exercises</a> with them. The exercises were prepared by Codebar founders.</p>",
       "type": "Series of Workshops",
       "place": {
         "title": "Codebar",
@@ -65,7 +65,7 @@
     {
       "title": "Mind Sports Olympiad - Programming Competition",
       "role": "4th Place Winnner",
-      "description": "<p>Programming is one of the competitions within a huge and exciting event - <a href='' target='_blank'>Mind Sports Olympiad</a>. Participants were given 3 hours to solve 4 algorithmic tasks in a programming language of their preference. Please checkout this GitHub repository to find out more. After great 3 hours of programming I came 4th.</p>",
+      "description": "<p>Programming is one of the competitions within a huge and exciting event - <a href='' target='_blank'>Mind Sports Olympiad</a>. Participants were given 3 hours to solve <a href=''>4 algorithmic tasks</a> in a programming language of their preference. After 3 hours of intensive programming I came 4th.</p>",
       "type": "Programming Competition",
       "place": {
         "title": "Mind Sports Olympiad",
@@ -78,7 +78,7 @@
     {
       "title": "Open Team Programming Collegiate Cup",
       "role": "Participant",
-      "description": "<p>This a programming competition for the teams, where participants solve the puzzles remotely and submit their solutions through the system. Solution is evaluated not only by the fact whether it produces correct results, but also by its performance. All the tasks required to come up with complex algorithms.</p>",
+      "description": "<p>This a programming competition for the teams, where participants solve the puzzles remotely and submit their solutions through the system. Solution is evaluated not only by the fact whether it produces correct results, but also by its performance. All the tasks require to come up with complex algorithms.</p>",
       "type": "Programming Competition",
       "place": {
         "title": "Open Team Programming Collegiate Cup",
