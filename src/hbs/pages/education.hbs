@@ -1,6 +1,7 @@
 ---
 title: <%= education.title %>
 intro: <%= education.intro %>
+nav.top: <% _.map(nav.top, function(navItem){ if (navItem.label === education.title) navItem.active = true; else navItem.active = false; return navItem; }); %>
 ---
 {{#with education}}
 

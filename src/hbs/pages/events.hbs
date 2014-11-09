@@ -1,6 +1,7 @@
 ---
 title: <%= events.title %>
 intro: <%= events.intro %>
+nav.top: <% _.map(nav.top, function(navItem){ if (navItem.label === events.title) navItem.active = true; else navItem.active = false; return navItem; }); %>
 ---
 {{#with events}}
 

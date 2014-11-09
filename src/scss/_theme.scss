@@ -1,5 +1,6 @@
 h2 {
     margin-top: 0;
+    margin-bottom: $block-grid-default-spacing;
 }
 
 h3 {
@@ -15,7 +16,7 @@ p {
 }
 
 .intro {
-    margin-bottom: 2rem;
+    margin-bottom: $block-grid-default-spacing;
 }
 
 .top-bar {

@@ -19,7 +19,6 @@ module.exports = function(grunt) {
     assemble: {
       options: {
         layout: 'src/hbs/templates/main.hbs',
-        partials: 'src/hbs/data/components/*.hbs',
         flatten: true,
         data: 'src/hbs/data/*.json'
       },

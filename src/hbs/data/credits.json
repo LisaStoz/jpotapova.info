@@ -10,6 +10,8 @@
     "<a href='http://bower.io/'>Bower</a> - A package manager for the web,",
     "<a href='https://www.npmjs.org/'>npm</a> - Node Package Manager,",
     "<a href='http://nodejs.org/'>node.js</a> - a platform built on Chrome's JavaScript runtime,",
-    "<a href='https://atom.io/'>Atom</a> - A hackable text editor for the 21st Century"
+    "<a href='https://atom.io/'>Atom</a> - A hackable text editor for the 21st Century",
+    "<a href='http://git-scm.com/'>Git</a> - a distributed version control system",
+    "<a href='https://github.com/'>GitHub</a> - online project hosting using Git"
   ]
 }
