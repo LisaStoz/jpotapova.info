@@ -68,6 +68,15 @@
           </div>
 
           <div class="small-9 columns">
+
+            {{#if breadcrumbs}}
+            <ul class="breadcrumbs">
+              {{#each breadcrumbs}}
+              <li {{#if current}}class="current"{{/if}}><a href="{{link}}">{{label}}</a></li>
+              {{/each}}
+            </ul>
+            {{/if}}
+
             <h2>{{title}}</h2>
             {{#if intro}}
               <p class="intro text-justify">{{{intro}}}</p>

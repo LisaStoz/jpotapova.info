@@ -7,11 +7,14 @@ class: <%= credits.class %>
 {{#with credits}}
 
   {{#if tools}}
-  <ul>
-    {{#each tools}}
-    <li>{{{.}}}</li>
-    {{/each}}
-  </ul>
+  <article>
+    <ul>
+      {{#each tools}}
+      <li>{{{.}}}</li>
+      {{/each}}
+    </ul>
+  </article>
   {{/if}}
+
 
 {{/with}}
