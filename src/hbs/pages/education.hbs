@@ -5,13 +5,13 @@ intro: <%= education.intro %>
 {{#with education}}
 
   {{#each records}}
-  <div class="record">
+  <article>
 
     {{#if title}}
     <h3>{{title}}</h3>
     {{/if}}
 
-  </div>
+  </article>
   {{/each}}
 
 {{/with}}

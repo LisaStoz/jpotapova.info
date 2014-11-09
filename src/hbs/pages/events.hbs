@@ -5,7 +5,8 @@ intro: <%= events.intro %>
 {{#with events}}
 
   {{#each records}}
-    <div class="record">
+    <article>
+      <header>
         {{#if title}}
           <h3>{{{title}}}</h3>
         {{/if}}
@@ -13,13 +14,19 @@ intro: <%= events.intro %>
         {{#if role}}
         <h4>{{{role}}}</h4>
         {{/if}}
+      </header>
 
-        {{#if description}}
+      {{#if description}}
+      <div class="text-justify">
         {{{description}}}
-        {{/if}}
+      </div>
+      {{/if}}
 
+      <footer class="text-right">
         <p>{{type}}{{#if place.title}} @ {{#if place.link}}<a href="{{place.link}}" target="_blank">{{/if}}{{place.title}}{{#if place.link}}</a>{{/if}}{{#if place.location}}, {{place.location}}{{/if}}{{/if}}{{#if date}} in {{date}}{{/if}}</p>
-    </div>
+      </footer>
+
+    </article>
   {{/each}}
 
 {{/with}}
