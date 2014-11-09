@@ -3,7 +3,7 @@ h2 {
     margin-bottom: $block-grid-default-spacing;
 }
 
-h3 {
+h3, h5 {
   color: $dark;
 }
 
@@ -75,5 +75,14 @@ footer {
   h6 {
     margin-top: $block-grid-default-spacing;
     color: $dark;
+  }
+}
+
+.experience {
+  article {
+    footer {
+      font-size: rem-calc(14);
+      color: $dark;
+    }
   }
 }

@@ -2,6 +2,7 @@
 title: <%= experience.title %>
 intro: <%= experience.intro %>
 nav.top: <% _.map(nav.top, function(navItem){ if (navItem.label === experience.title) navItem.active = true; else navItem.active = false; return navItem; }); %>
+class: <%= experience.class %>
 ---
 {{#with experience}}
 
@@ -10,16 +11,25 @@ nav.top: <% _.map(nav.top, function(navItem){ if (navItem.label === experience.t
       <article>
 
         <header>
+
+          {{#if role}}
+          <h3>{{role}}</h3>
+          {{/if}}
+
           {{#if company}}
-          <h3>{{company.title}}</h3>
+          <h4>{{company.title}}</h4>
           {{/if}}
 
 
-          <h4>{{dates}}, {{company.location}}</h4>
+          <h5>{{dates}}, {{company.location}}</h5>
 
         </header>
 
         {{{description}}}
+
+        {{#if skills}}
+          <footer>{{{skills}}}</footer>
+        {{/if}}
 
       </article>
       {{/each}}
