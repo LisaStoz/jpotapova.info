@@ -1,22 +1,17 @@
 {
   "title": "Experience",
-  "intro": "",
+  "intro": "Currently I have 7 years of commercial experience. During these years I did some freelancing, worked in small startups and large companies. I created my first programme long before I finished school - at the age of 13. Since then I programmed every day, which is now more than half of my life.",
   "records": [
     {
       "role": "Front End Mobile Developer",
       "company": {
-        "title": "<a href='' target='_blank'>Reply Ltd</a>, trading division – <a href=''>Open Reply UK</a>",
+        "title": "Open Reply UK, part of Reply Ltd",
         "location": "London, UK"
       },
-      "description": {
-        "points": [
-          "Create/maintain mobile and tablet-optimised websites;",
-          "Improve, configure and document frontend development technical workflow;",
-          "Voluntarily organise workshops and promote best practices;"
-        ]
-      },
+      "description": "",
       "skills": "HTML, CSS, Javascript, jQuery, LESS, Sass, Grunt, Underscore.js, Handlebars, Jasmine, SVN, Git, JIRA, TDD, Scrum",
-      "dates": "Current role, started in April 2014"
+      "dates": "Current role, started in April 2014",
+      "projects": []
     }
   ]
 

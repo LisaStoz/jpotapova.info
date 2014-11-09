@@ -1,9 +1,28 @@
 ---
 title: <%= experience.title %>
 intro: <%= experience.intro %>
+nav.top: <% _.map(nav.top, function(navItem){ if (navItem.label === experience.title) navItem.active = true; else navItem.active = false; return navItem; }); %>
 ---
 {{#with experience}}
 
-<p>...</p>
+  <div class="records-list">
+    {{#each records}}
+      <article>
+
+        <header>
+          {{#if company}}
+          <h3>{{company.title}}</h3>
+          {{/if}}
+
+
+          <h4>{{dates}}, {{company.location}}</h4>
+
+        </header>
+
+        {{{description}}}
+
+      </article>
+      {{/each}}
+  </div>
 
 {{/with}}
