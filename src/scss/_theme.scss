@@ -32,6 +32,17 @@ footer {
   &.panel {
     margin-bottom: 0;
   }
+
+  a {
+    color: $jet;
+    text-decoration: underline;
+  }
+}
+
+article {
+  margin: 0;
+  padding: 1rem 0;
+  border-top: 1px solid $white-smoke;
 }
 
 .skills-list {
@@ -40,8 +51,8 @@ footer {
   }
 }
 
-article {
-  margin: 0;
-  padding: 1rem 0;
-  border-top: 1px solid $white-smoke;
+.credits {
+  .intro {
+    margin-bottom: 1rem;
+  }
 }

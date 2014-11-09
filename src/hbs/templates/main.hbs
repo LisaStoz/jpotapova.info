@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="en">
+<html class="no-js {{class}}" lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -67,7 +67,7 @@
           <div class="small-9 columns">
             <h2>{{title}}</h2>
             {{#if intro}}
-              <p class="intro text-justify">{{intro}}</p>
+              <p class="intro text-justify">{{{intro}}}</p>
             {{/if}}
             {{> body}}
           </div>
@@ -77,8 +77,7 @@
     </main>
 
     <footer class="panel">
-      <p class="small-text-center">&copy; jpotapova.info 2014</p>
-      <p class="small-text-center"><a href="#">Credits</a></p>
+      <p class="small-text-center">&copy; jpotapova.info 2014 | <a href="credits.html">Credits</a></p>
     </footer>
 
     <script src="bower_components/jquery/dist/jquery.min.js"></script>

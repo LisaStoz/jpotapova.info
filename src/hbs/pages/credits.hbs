@@ -1,0 +1,17 @@
+---
+title: <%= credits.title %>
+intro: <%= credits.intro %>
+class: <%= credits.class %>
+---
+
+{{#with credits}}
+
+  {{#if tools}}
+  <ul>
+    {{#each tools}}
+    <li>{{{.}}}</li>
+    {{/each}}
+  </ul>
+  {{/if}}
+
+{{/with}}

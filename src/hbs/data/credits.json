@@ -1,0 +1,15 @@
+{
+  "class": "credits",
+  "title": "Credits",
+  "intro": "To build this website I used a lot of great tools.<br>I would like to thank all the creators and contributors of:",
+  "tools": [
+    "<a href='http://foundation.zurb.com/'>Foundation</a> by ZURB - a front-end framework,",
+    "<a href='http://gruntjs.com/'>Grunt</a> - The JavaScript Task Runner,",
+    "<a href='http://sass-lang.com/'>Sass</a> - Syntactically Awesome StyleSheets,",
+    "<a href='http://assemble.io/'>Assemble</a> - Static site generator,",
+    "<a href='http://bower.io/'>Bower</a> - A package manager for the web,",
+    "<a href='https://www.npmjs.org/'>npm</a> - Node Package Manager,",
+    "<a href='http://nodejs.org/'>node.js</a> - a platform built on Chrome's JavaScript runtime,",
+    "<a href='https://atom.io/'>Atom</a> - A hackable text editor for the 21st Century"
+  ]
+}
