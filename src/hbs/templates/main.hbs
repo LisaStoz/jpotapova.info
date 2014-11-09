@@ -41,25 +41,28 @@
       <div class="row">
 
           <div class="small-3 columns">
-            <img class="th" src="img/lisa1.jpg">
+            <img class="th me" src="img/lisa1.jpg">
 
-            {{#if nav.side.cv.label}}
-            <a class="label" href="{{nav.side.cv.link}}">{{nav.side.cv.label}}</a><br>
-            {{/if}}
-
-            {{#if nav.side.contact.label}}
-            <a class="label" href="{{nav.side.contact.link}}">{{nav.side.contact.label}}</a><br>
-            {{/if}}
+            <ul class="stack-for-small round secondary button-group">
+              {{#if nav.side.cv.label}}
+              <li><a href="{{nav.side.cv.link}}" class="button tiny">{{nav.side.cv.label}}</a></li>
+              {{/if}}
+              {{#if nav.side.contact.label}}
+              <li><a href="{{nav.side.contact.link}}" class="button tiny">{{nav.side.contact.label}}</a></li>
+              {{/if}}
+            </ul>
 
             {{#if nav.side.about.label}}
-            <a href="{{nav.side.about.link}}">{{nav.side.about.label}}</a>
+            <a href="{{nav.side.about.link}}" class="about">{{{nav.side.about.label}}}</a>
             {{/if}}
 
             {{#if nav.profiles}}
+            <div class="profiles">
               <h6>Public Profiles</h6>
               {{#each nav.profiles}}
-                <a class="label secondary" href="http://{{link}}" target="blank">{{label}}</a><br>
+                <a class="label" href="http://{{link}}" target="blank">{{label}}</a><br>
               {{/each}}
+            </div>
             {{/if}}
 
           </div>

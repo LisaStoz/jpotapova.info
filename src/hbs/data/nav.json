@@ -58,16 +58,16 @@
   ],
   "side": {
     "cv": {
-      "label": "Download my CV",
+      "label": "Download CV",
       "link": ""
     },
     "contact": {
-      "label": "Get in touch",
+      "label": "Get in Touch",
       "link": ""
     },
     "about": {
-      "label": "Me, why I love web developement and how this all happened",
-      "link": ""
+      "label": "Me, why I love web<br>and how this all happened",
+      "link": "about.html"
     }
   }
 }
