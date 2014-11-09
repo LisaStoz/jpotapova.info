@@ -1,11 +1,32 @@
 {
   "title": "Education",
-  "intro": "...",
+  "intro": "I have always enjoyed studying, analysing and truly understanding the concepts I am working with. After finishing University I have never stopped learning myself and I also completed lots of various courses on web development topics.",
   "records": [
     {
       "school": "Vilnius University",
       "title": "Computer Science",
       "date": "2006 – 2010",
+      "description": "<p>I studied Computer Science full-time in <a href=''>Vilnius University Faculty of Mathematics and Informatics</a>. Not only I enjoyed this period of my life, but also most of the time I was Nr.1 student of the entire course and during all 4 years of studies received an Enlarged Grant for high study results. During the course I learnt a number of languages and tools including C, C++, Java, Prolog, Assembler, Pascal, Object Pascal, Database Management Systems, SQL, MySQL, PL/SQL, Matlab, Maple, PHP. Some of my interesting projects were:</p><ul><li>a client application and a server application, which allowed 2 clients to connect and play chess (developed in C);</li><li>an artificial procedural language and a translator for it (developed in Java);</li><li>a computer emulator and operating system for it; the operating system was able to run basic programs written in specific assembler-like language, accept input and provide output, demonstrating how it is using its internal resources (developed using Borland Delphi);</li><li>a set of applications implementing various steganographic methods (developed in Java).</li></ul><p>I was a member of <a href='http://mif.vusa.lt/' target='_blank'>Vilnius University Student's Representation</a>, IT department.</p>",
+      "image": ""
+    },
+    {
+      "school": "Lithuanian School for Young Mathematicians",
+      "title": "Mathematics and Mathematics Applications Studies",
+      "date": "2004 – 2006",
+      "description": "<p><a href=''>Lithuanian School for Young Mathematicians</a> is a remote studies programme maintained by <a href=''>Vilnius University Faculty of Mathematics and Informatics</a> with a final problem-solving competition held in Vilnius University. The programme covers various mathematical topics and problems that are more complex that the ones required for <a href='http://www.nec.lt/' target='_blank'>Final National Exams</a>, in fact, it can be considered as serious preparation for Maths and Computer Science Studies in Vilnius University. I completed the programme in addition to my Secondary Education.</p>",
+      "image": ""
+    },
+    {
+      "school": "Vilnius A. Puškin School",
+      "title": "Secondary Education",
+      "date": "2006",
+      "description": "Secondary Education takes 12 years in Lithuania, finished by series of <a href=''>Final National Exams</a>. I chose to study a technical set of subjects and several foreign languages and completed with honours by earning excellent grades in all of the subjects.",
+      "image": ""
+    },
+    {
+      "school": "Hybris Software",
+      "title": "Developer Training - Core Platform",
+      "date": "2013",
       "description": "",
       "image": ""
     },

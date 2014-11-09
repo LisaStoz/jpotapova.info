@@ -7,8 +7,25 @@ intro: <%= education.intro %>
   {{#each records}}
   <article>
 
-    {{#if title}}
-    <h3>{{title}}</h3>
+    <header>
+      {{#if title}}
+      <h3>{{title}}</h3>
+      {{/if}}
+
+      {{#if school}}
+      <h4>{{{school}}}</h4>
+      {{/if}}
+    </header>
+
+    {{#if image}}
+      <div class="row">
+        <div class="small-3 columns"></div>
+        <div class="small-9 columns text-justify">{{{description}}}</div>
+      </div>
+    {{else}}
+      <div class="text-justify">
+        {{{description}}}
+      </div>
     {{/if}}
 
   </article>
