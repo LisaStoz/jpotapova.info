@@ -2,8 +2,8 @@
 title: <%= credits.title %>
 intro: <%= credits.intro %>
 class: <%= credits.class %>
+nav.top: <% _.map(nav.top, function(navItem){ navItem.active = false; return navItem; }); %>
 ---
-
 {{#with credits}}
 
   {{#if tools}}
@@ -15,6 +15,5 @@ class: <%= credits.class %>
     </ul>
   </article>
   {{/if}}
-
 
 {{/with}}

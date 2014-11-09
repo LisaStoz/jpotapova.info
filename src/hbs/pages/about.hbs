@@ -1,0 +1,5 @@
+---
+title: <%= about.title %>
+intro: <%= about.intro %>
+nav.top: <% _.map(nav.top, function(navItem){ navItem.active = false; return navItem; }); %>
+---
