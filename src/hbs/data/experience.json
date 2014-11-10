@@ -13,6 +13,61 @@
       "skills": "HTML &bullet; CSS &bullet; JavaScript &bullet; jQuery &bullet; LESS &bullet; Sass &bullet; Grunt &bullet; Underscore.js &bullet; Handlebars.js &bullet; Jasmine &bullet; SVN &bullet; Git &bullet; JIRA &bullet; TDD &bullet; Scrum",
       "dates": "Current role, started in April 2014",
       "projects": []
+    },
+    {
+      "role": "Full Stack Web Developer",
+      "company": {
+        "title": "Artlogic Media Ltd",
+        "location": "London, UK"
+      },
+      "dates": "April 2011 - April 2014",
+      "skills": "",
+      "projects": [],
+      "description": ""
+    },
+    {
+      "role": "Freelance Full Stack Web Developer",
+      "company": {
+        "title": "Baltic Ground Services",
+        "location": "Vilnius, Lithuania"
+      },
+      "dates": "",
+      "skills": "",
+      "projects": [],
+      "description": ""
+    },
+    {
+      "role": "Freelance Full Stack Web Developer",
+      "company": {
+        "title": "Waldon Energy",
+        "location": "Vilnius, Lithuania"
+      },
+      "dates": "",
+      "skills": "",
+      "projects": [],
+      "description": ""
+    },
+    {
+      "role": "Full Stack Web Developer",
+      "company": {
+        "title": "UAB Bonus Optimus",
+        "location": "Vilnius, Lithuania"
+      },
+      "dates": "",
+      "skills": "",
+      "projects": [],
+      "description": ""
+    },
+    {
+      "role": "Full Stack Web Developer",
+      "company": {
+        "title": "UAB Askobaltis",
+        "location": "Vilnius, Lithuania"
+      },
+      "dates": "January 2008 - April 2009",
+      "skills": "HTML &bullet; CSS &bullet; Javascript &bullet; jQuery &bullet; Mootools &bullet; Smarty &bullet; PHP &bullet; MySQL &bullet; Zend Framework",
+      "projects": [],
+      "description": ""
     }
   ]
 
