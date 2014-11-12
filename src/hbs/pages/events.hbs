@@ -8,25 +8,30 @@ nav.top: <% _.map(nav.top, function(navItem){ if (navItem.label === events.title
   <div class="records-list">
     {{#each records}}
         <article>
-          <header>
-            {{#if title}}
-              <h3>{{{title}}}</h3>
-            {{/if}}
 
-            {{#if role}}
-            <h4>{{{role}}}</h4>
-            {{/if}}
-          </header>
+          <div class="row">
+            <div class="small-3 columns">FIXME: Date box</div>
+            <div class="small-9 columns text-justify">
+              {{#if title}}
+                <h3>{{{title}}}</h3>
+              {{/if}}
 
-          {{#if description}}
-          <div class="text-justify">
-            {{{description}}}
+              {{#if role}}
+              <h4>{{{role}}}</h4>
+              {{/if}}
+
+              <p><a href="link">FIXME: Link to gihub</a> &bullet; <a href="link">FIXME: link to blog</a></p>
+
+              <footer>
+                <p>{{type}}{{#if place.title}} @ {{#if place.link}}<a href="{{place.link}}" target="_blank">{{/if}}{{place.title}}{{#if place.link}}</a>{{/if}}{{#if place.location}}, {{place.location}}{{/if}}{{/if}}{{#if date}} in {{date}}{{/if}}</p>
+              </footer>
+
+            </div>
           </div>
-          {{/if}}
 
-          <footer class="text-right">
-            <p>{{type}}{{#if place.title}} @ {{#if place.link}}<a href="{{place.link}}" target="_blank">{{/if}}{{place.title}}{{#if place.link}}</a>{{/if}}{{#if place.location}}, {{place.location}}{{/if}}{{/if}}{{#if date}} in {{date}}{{/if}}</p>
-          </footer>
+
+
+
 
         </article>
     {{/each}}

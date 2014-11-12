@@ -1,6 +1,66 @@
 {
   "title": "Education",
   "intro": "I have always enjoyed studying, analysing and truly understanding the concepts I am working with. After finishing University I have never stopped learning myself and I also completed lots of various courses on web development topics.",
+  "formal": [
+    {
+      "school": "Vilnius University",
+      "title": "Computer Science, Bachelor's degree",
+      "date": "2006 – 2010",
+      "description": "<p>I studied Computer Science full-time in <a href=''>Vilnius University Faculty of Mathematics and Informatics</a>. Not only I enjoyed this period of my life, but also most of the time I was Nr.1 student of the entire course and during all 4 years of studies received an Enlarged Grant for high study results.</p><p class='text-right'><a href='vu.html'>Read more about my studies in Vilnius University &raquo;</a></p>",
+      "image": ""
+    },
+    {
+      "school": "Lithuanian School for Young Mathematicians",
+      "title": "Mathematics and Mathematics Applications Studies",
+      "date": "2004 – 2006",
+      "description": "<p><a href=''>Lithuanian School for Young Mathematicians</a> is a remote studies programme maintained by <a href=''>Vilnius University Faculty of Mathematics and Informatics</a> with a final problem-solving competition held in Vilnius University. The programme covers various mathematical topics and problems that are more complex that the ones required for <a href='http://www.nec.lt/' target='_blank'>Final National Exams</a>, in fact, it can be considered as serious preparation for Maths and Computer Science Studies in Vilnius University. I completed the programme in addition to my Secondary Education.</p>",
+      "image": ""
+    },
+    {
+      "school": "Vilnius A. Puškin School",
+      "title": "Secondary Education",
+      "date": "graduated in 2006",
+      "description": "Secondary Education takes 12 years in Lithuania, finished by series of <a href=''>Final National Exams</a>. I chose to study a technical set of subjects and several foreign languages and completed Vilniu <a href=''>A.Puškin school</a> with honours by earning excellent grades in all of the subjects.",
+      "image": ""
+    }
+  ],
+  "certificates": [
+    {
+      "school": "Hybris Software",
+      "title": "Developer Training - Core Platform",
+      "date": "2013",
+      "description": "A week long <a href=''>developer training course</a> on <a href=''>Hybris platform</a> mostly consisting of practical exercises.",
+      "image": ""
+    },
+    {
+      "school": "W3DevCampus",
+      "title": "Programming Web Applications for Mobile Devices",
+      "date": "2014",
+      "description": "An online 6 weeks long <a href=''>course</a> covering Optimisation, Progressive Enhancement, Web(?) APIs, PhoneGap(?). The course was delivered by <a href=''>W3DevCampus</a> - <a href=''>W3C</a> Online Training for Developers and required a successful completion of relatively large tasks during 6 weeks, I finished with a final grade of 99.33%.",
+      "image": ""
+    },
+    {
+      "school": "MongoDB University",
+      "title": "MongoDB for Node.js Developers",
+      "date": "2014",
+      "description": "This 8 week long <a href=''>course</a> is maintained by creators of <a href=''>MongoDB</a> and contains a wide range of hands-on exercises every week, covering a no SQL databases principles and MongoDB in particular. By successfully submitting all the solutions on time I was able to complete the course with a excellent grade of 100%.",
+      "image": ""
+    },
+    {
+      "school": "Google Analytics Academy",
+      "title": "Google Analytics Platform Principles",
+      "date": "2014",
+      "description": "TODO",
+      "image": ""
+    },
+    {
+      "school": "Google Analytics Academy",
+      "title": "Digital Analytics Fundamentals",
+      "date": "2013",
+      "description": "During this <a href=''>course</a> I explored a lot of Google Analytics features and learnt new ways of digesting and analysing the data.",
+      "image": ""
+    }
+  ],
   "records": [
     {
       "school": "Vilnius University",

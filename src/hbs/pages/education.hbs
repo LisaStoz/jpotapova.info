@@ -5,30 +5,51 @@ nav.top: <% _.map(nav.top, function(navItem){ if (navItem.label === education.ti
 ---
 {{#with education}}
 
+  <h3>Formal</h3>
   <div class="records-list">
-    {{#each records}}
+    {{#each formal}}
     <article>
 
-      <header>
-        {{#if title}}
-        <h3>{{title}}</h3>
-        {{/if}}
+      <div class="row">
+        <div class="small-3 columns">img</div>
+        <div class="small-9 columns text-justify">
+          {{#if title}}
+          <h4>{{title}}</h4>
+          {{/if}}
 
-        {{#if school}}
-        <h4>{{{school}}}, {{date}}</h4>
-        {{/if}}
-      </header>
+          {{#if school}}
+          <h5>{{{school}}}, {{date}}</h5>
+          {{/if}}
 
-      {{#if image}}
-        <div class="row">
-          <div class="small-3 columns"></div>
-          <div class="small-9 columns text-justify">{{{description}}}</div>
+          <p>FIXME: A very short paragraph</p>
+
         </div>
-      {{else}}
-        <div class="text-justify">
-          {{{description}}}
+      </div>
+
+    </article>
+    {{/each}}
+  </div>
+
+  <h3>Certificates &amp; Training</h3>
+  <div class="records-list">
+    {{#each certificates}}
+    <article>
+
+      <div class="row">
+        <div class="small-3 columns">img</div>
+        <div class="small-9 columns text-justify">
+          {{#if title}}
+          <h4>{{title}}</h4>
+          {{/if}}
+
+          {{#if school}}
+          <h5>{{{school}}}, {{date}}</h5>
+          {{/if}}
+
+          <p>FIXME: A very short paragraph</p>
+
         </div>
-      {{/if}}
+      </div>
 
     </article>
     {{/each}}
