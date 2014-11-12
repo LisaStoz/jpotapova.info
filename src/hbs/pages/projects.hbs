@@ -5,6 +5,26 @@ nav.top: <% _.map(nav.top, function(navItem){ if (navItem.label === projects.tit
 ---
 {{#with projects}}
 
-<p>...</p>
+  {{#each jobs}}
+
+    <h3>{{company}}</h3>
+
+    <div class="records-grid">
+      {{#each works}}
+        <article>
+
+          <h4>{{title}}</h4>
+          <p>{{description}}</p>
+          <img src="..." />
+          {{#if link}}
+          <a href="{{link}}">Visit Website</a>
+          {{/if}}
+
+
+        </article>
+      {{/each}}
+    </div>
+
+  {{/each}}
 
 {{/with}}
