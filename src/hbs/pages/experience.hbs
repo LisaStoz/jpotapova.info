@@ -8,28 +8,27 @@ class: <%= experience.class %>
 
   <div class="records-list">
     {{#each records}}
-      <article>
+      <article class="row">
 
-        <header>
+        <div class="small-3 columns">
+          FIXME: Date and location
+        </div>
+        <div class="small-9 columns">
+          <header>
 
-          {{#if role}}
-          <h3>{{role}}</h3>
-          {{/if}}
+            {{#if role}}
+            <h3>{{role}}</h3>
+            {{/if}}
 
-          {{#if company}}
-          <h4>{{company.title}}</h4>
-          {{/if}}
+            {{#if company}}
+            <h4>{{company.title}}</h4>
+            {{/if}}
 
+          </header>
 
-          <h5>{{dates}}, {{company.location}}</h5>
+          <p>FIXME: Very short paragraph.</p>
 
-        </header>
-
-        {{{description}}}
-
-        {{#if skills}}
-          <footer>{{{skills}}}</footer>
-        {{/if}}
+        </div>
 
       </article>
       {{/each}}
