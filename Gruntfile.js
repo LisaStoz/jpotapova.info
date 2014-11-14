@@ -35,6 +35,12 @@ module.exports = function(grunt) {
           {expand: true, flatten: true, src: ['src/img/*'], dest: 'app/img/', filter: 'isFile'},
         ],
       },
+      flags: {
+        files: [
+          {expand: true, flatten: true, src: ['src/flags/1x1/*'], dest: 'app/flags/1x1', filter: 'isFile'},
+          {expand: true, flatten: true, src: ['src/flags/4x3/*'], dest: 'app/flags/4x3', filter: 'isFile'},
+        ],
+      }
     },
 
     watch: {

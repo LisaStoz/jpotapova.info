@@ -9,10 +9,15 @@ nav.top: <% _.map(nav.top, function(navItem){ if (navItem.label === events.title
     {{#each records}}
         <article class="row">
 
-          <div class="small-3 columns">FIXME: Date and location</div>
+          <div class="small-3 columns">
+            <div class="panel info radius text-center">
+              <h5>{{{date}}}</h5>
+              <span class="flag-icon flag-icon-{{place.country}}"></span>
+            </div>
+          </div>
           <div class="small-9 columns text-justify">
             {{#if title}}
-              <h3>{{{title}}}</h3>
+              <h3 class="text-left">{{{title}}}</h3>
             {{/if}}
 
             {{#if role}}

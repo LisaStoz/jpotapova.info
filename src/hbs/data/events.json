@@ -10,9 +10,10 @@
       "place": {
         "title": "Makers Academy",
         "location": "London",
+        "country": "gb",
         "link": "http://www.makersacademy.com/"
       },
-      "date": "October 2014"
+      "date": "Oct 2014"
     },
     {
       "title": "Behaviour Driven Development with Jasmine",
@@ -22,9 +23,10 @@
       "place": {
         "title": "Reply Ltd",
         "location": "London",
+        "country": "gb",
         "link": "http://www.reply.eu/en/"
       },
-      "date": "September 2014"
+      "date": "Sep 2014"
     },
     {
       "title": "Behaviour Driven Development with Jasmine",
@@ -34,9 +36,10 @@
       "place": {
         "title": "Open Reply UK",
         "location": "London",
+        "country": "gb",
         "link": "http://www.reply.eu/en/"
       },
-      "date": "August 2014"
+      "date": "Aug 2014"
     },
     {
       "title": "HTML, CSS &amp; JavaScript",
@@ -46,9 +49,10 @@
       "place": {
         "title": "OpenTechSchool",
         "location": "London",
+        "country": "gb",
         "link": "http://"
       },
-      "date": "August-September 2014"
+      "date": "Aug-Sep 2014"
     },
     {
       "title": "HTML, CSS, JavaScript &amp; Python",
@@ -58,21 +62,23 @@
       "place": {
         "title": "Codebar",
         "location": "London",
+        "country": "gb",
         "link": "http://"
       },
-      "date": "December 2013 - February 2014"
+      "date": "Dec 2013<br>to<br>Feb 2014"
     },
     {
-      "title": "Mind Sports Olympiad - Programming Competition",
+      "title": "Mind Sports Olympiad<br>Programming Competition",
       "role": "4th Place Winnner",
       "description": "<p>Programming is one of the competitions within a huge and exciting event - <a href='' target='_blank'>Mind Sports Olympiad</a>. Participants were given 3 hours to solve <a href=''>4 algorithmic tasks</a> in a programming language of their preference. After 3 hours of intensive programming I came 4th.</p>",
       "type": "Programming Competition",
       "place": {
         "title": "Mind Sports Olympiad",
         "location": "London",
+        "country": "gb",
         "link": "http://"
       },
-      "date": "August 2013"
+      "date": "Aug 2013"
 
     },
     {
@@ -82,9 +88,11 @@
       "type": "Programming Competition",
       "place": {
         "title": "Open Team Programming Collegiate Cup",
-        "link": "http://"
+        "link": "http://",
+        "location": "Vilnius",
+        "country": "lt"
       },
-      "date": "2006 and 2007"
+      "date": "2006<br>and<br>2007"
     }
   ]
 }

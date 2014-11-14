@@ -46,6 +46,16 @@ footer {
     margin: 0;
     padding: 1rem 0;
     border-top: 1px solid $white-smoke;
+
+    .panel {
+
+      h5 {
+        font-size: rem-calc(26);
+      }
+      .flag-icon {
+        font-size: rem-calc(26);
+      }
+    }
   }
 }
 
