@@ -6,10 +6,11 @@
         "left": [
           {
             "title": "Open Reply UK",
-            "description": "In 2014 I left Artlogic Media Ltd and joined Open Reply UK as Mobile Frontend Developer."
+            "description": "<p>In 2014 I left Artlogic Media Ltd and joined Open Reply UK as Mobile Frontend Developer.</p>"
           },
           {
-            "description": "Completed MongoDB University course 'M101JS: MongoDB for Node.js Developers'",
+            "title": "M101JS: MongoDB for Node.js Developers",
+            "description": "<p class='text-centered'>Completed MongoDB University course.</p>",
             "img": {
               "file": "mongo.png",
               "title": "Google Analytics Platform Principles certificate",
@@ -23,7 +24,8 @@
         ],
         "right": [
           {
-            "description": "Completed Google Analytics Academy course 'Google Analytics Platform Principles'",
+            "title": "Google Analytics Platform Principles",
+            "description": "<p class='text-centered'>Completed Google Analytics Academy course.</p>",
             "img": {
               "file": "googleanalytics2.png",
               "title": "Google Analytics Platform Principles certificate",
@@ -36,10 +38,76 @@
           },
           {
             "title": "JPotapova.info",
-            "description": "Developed portfolio website",
-            "desccentered": true
+            "description": "<p class='text-centered'>Developed portfolio website.</p>"
           }
         ]
+      }
+    },
+    {
+      "up": "2014",
+      "down": "2013",
+      "hide": true,
+      "tiles": {
+        "left": [
+          {
+            "title": "Kamel Lazaar Foundation",
+            "description": "<p class='text-centered'><small>*developed while working in Artlogic</small></p><p>Multi-lingual and multi-directional (English/Arabic), sliders, filters and intergration with Artlogic Online, categorisation and tagging.</p>",
+            "img": {
+              "file": "klf.png",
+              "title": "Kamel Lazaar Foundation",
+              "alt": "Kamel Lazaar Foundation screenshot",
+              "classes": "border-top border-bottom"
+            },
+            "link": {
+              "label": "Visit website",
+              "address": "http://www.kamellazaarfoundation.org"
+            }
+          },
+          {
+            "title": "Artlogic Online Inventory System",
+            "description": "<p class='text-centered'><small>*contributed to while working in Artlogic</small></p><p>Online database for art galleries with very rich functionality, including advanced searching mechanism, generating reports, documents, etc.</p>",
+            "img": {
+              "file": "artlogiconline.png",
+              "title": "Artlogic Online",
+              "alt": "About Artlogic Online features webpage screenshot",
+              "classes": "border-top border-bottom",
+              "nolg": true
+            },
+            "link": {
+              "label": "Read about Artlogic Online",
+              "address": "http://www.artlogiconline.com/"
+            }
+          },
+          {
+            "title": "Booktrust",
+            "description": "<p class='text-centered'><small>*massively contributed while working in Artlogic</small></p><p>Incredibly rich functionality website, lots of of javascript effects, complicated advanced searches, integration with external donations systems, password protected areas, Excel document generators, PDF document generators, etc.</p>",
+            "img": {
+              "file": "booktrust.png",
+              "title": "Booktrust",
+              "alt": "Booktrust website screenshot",
+              "classes": "border-top"
+            },
+            "link": {
+              "label": "Visit website",
+              "address": "http://www.booktrust.org.uk"
+            }
+          },
+          {
+            "title": "Pori Drwy Stori",
+            "description": "<p class='text-centered'><small>*developed while working in Artlogic</small></p>",
+            "img": {
+              "file": "poridrwystori.png",
+              "classes": "border-top",
+              "title": "Pori Drwy Stori",
+              "alt": "Pori Drwy Stori website screenshot"
+            },
+            "link": {
+              "label": "Visit website",
+              "address": "http://poridrwystori.booktrust.org.uk/"
+            }
+          }
+        ],
+        "right": []
       }
     }
   ]

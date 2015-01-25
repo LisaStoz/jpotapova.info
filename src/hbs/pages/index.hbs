@@ -5,82 +5,45 @@
 
     <div class="portfolio">
 
-      <div class="year-box">
-        <div class="time-nav">
-          <h2><span class="now">Now</span></h2>
-        </div>
-        <div class="left-row">
+      {{#each timeline.year}}
+        <div class="year-box">
 
-          {{#each timeline.year}}
-            {{#each tiles.left}}
-              {{> tile}}
-            {{/each}}
-          {{/each}}
+          <div class="time-nav">
+            <h2>
+              {{#if current}}
+                <span class="now">{{current}}</span>
+              {{/if}}
+              {{#if up}}
+                <span class="year">{{up}}<i class="fa fa-arrow-up"></i></span>
+              {{/if}}
+              {{#if down}}
+                <span class="year"><i class="fa fa-arrow-down"></i>2013</span>
+              {{/if}}
+            </h2>
+          </div>
 
-        </div>
-        <div class="right-row">
+          <div class="left-row">
+              {{#each tiles.left}}
+                {{> tile}}
+              {{/each}}
+          </div>
 
-          {{#each timeline.year}}
+          <div class="right-row">
             {{#each tiles.right}}
               {{> tile}}
             {{/each}}
-          {{/each}}
-
-          {{#if false}}
-          <div class="info-tile ">
-            <div class="pointer">
-              <div class="mark"></div>
-            </div>
-            <p>Completed Google Analytics Academy course 'Google Analytics Platform Principles'</p>
-            <a href="img/portfolio/large/googleanalytics2.png" class="view-large">
-              <img src="img/portfolio/thumb/googleanalytics2.png" title="Google Analytics Platform Principles certificate" alt="Google Analytics Platform Principles certificate"/>
-              <span class="icon-zoom-in"></span>
-            </a>
-            <p class="text-centered">
-              <a href="https://analyticsacademy.withgoogle.com/course02" target="_blank" class="external">
-                <span>Visit course page</span><span class="icon-new-tab"></span>
-              </a>
-            </p>
           </div>
-
-
-          <div class="info-tile ">
-            <div class="pointer">
-              <div class="mark"></div>
-            </div>
-            <h3>JPotapova.info</h3>
-            <p class="text-centered">Developed portfolio website</p>
-          </div>
-
-          {{/if}}
 
         </div>
-      </div>
+      {{/each}}
 
+
+      {{#if false}}
       <div class="year-box hide">
 
-        <div class="time-nav">
-          <h2><span class="year">2014<span class="icon-arrow-up"></span></span><span class="year"><span class="icon-arrow-down"></span>2013</span></h2>
-        </div>
+
         <div class="left-row">
 
-          <div class="info-tile hidden-tile">
-            <div class="pointer">
-              <div class="mark"></div>
-            </div>
-            <h3>Kamel Lazaar Foundation</h3>
-            <p class="text-centered"><small>*developed while working in Artlogic</small></p>
-            <p>Multi-lingual and multi-directional (English/Arabic), sliders, filters and intergration with Artlogic Online, categorisation and tagging.</p>
-            <a href="img/portfolio/large/klf.png" class="view-large border-top border-bottom">
-              <img src="img/portfolio/thumb/klf.png" title="Kamel Lazaar Foundation" alt="Kamel Lazaar Foundation screenshot"/>
-              <span class="icon-zoom-in"></span>
-            </a>
-            <p class="text-centered">
-              <a href="http://www.kamellazaarfoundation.org" target="_blank" class="external">
-                <span class="label">Visit website</span><span class="icon-new-tab"></span>
-              </a>
-            </p>
-          </div>
 
           <div class="info-tile hidden-tile ">
             <div class="pointer">
@@ -1146,6 +1109,7 @@
 
                                           </div>
                                         </div>
+                                        {{/if}}
 
                                       </div>
 

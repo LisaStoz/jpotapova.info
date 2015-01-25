@@ -2,18 +2,21 @@
   <div class="pointer">
     <div class="mark"></div>
   </div>
+
   {{#if title}}
-  <h3>{{title}}</h3>
+    <h3>{{title}}</h3>
   {{/if}}
   {{#if description}}
-    <p {{#if desccentered}}class="text-centered"{{/if}}>{{description}}</p>
+    {{{description}}}
   {{/if}}
 
   {{#if img}}
-  <a href="img/portfolio/large/{{img.file}}" class="view-large">
-    <img src="img/portfolio/thumb/{{img.file}}" title="{{img.title}}" alt="{{img.alt}}"/>
-    <i class="fa fa-search-plus"></i>
-  </a>
+    {{#with img}}
+      <a href="img/portfolio/large/{{file}}" class="{{#if nolg}}{{else}}view-large{{/if}} {{classes}}">
+        <img src="img/portfolio/thumb/{{file}}" title="{{title}}" alt="{{alt}}"/>
+        {{#if nolg}}{{else}}<i class="fa fa-search-plus"></i>{{/if}}
+      </a>
+    {{/with}}
   {{/if}}
 
   {{#if link}}
