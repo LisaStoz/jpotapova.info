@@ -1,5 +1,3 @@
-/node_modules/
-/nbproject/
-._*
-/css/main.min.css
-/demo
+node_modules
+css
+js
