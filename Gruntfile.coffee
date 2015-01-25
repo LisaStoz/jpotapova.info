@@ -6,8 +6,12 @@ module.exports = (grunt) ->
     configPath: process.cwd() + '/grunt-tasks'
   })
 
-  grunt.registerTask('default', [
-      'assemble:pages',
-      'less:dev',
+  grunt.registerTask('dev', [
+      'assemble:pages'
+      'less:dev'
       'uglify:dev'
+  ])
+
+  grunt.registerTask('default', [
+    'dev', 'watch'
   ])
