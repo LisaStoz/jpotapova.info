@@ -6,6 +6,24 @@
   <h3>{{title}}</h3>
   {{/if}}
   {{#if description}}
-    <p>{{description}}</p>
+    <p {{#if desccentered}}class="text-centered"{{/if}}>{{description}}</p>
   {{/if}}
+
+  {{#if img}}
+  <a href="img/portfolio/large/{{img.file}}" class="view-large">
+    <img src="img/portfolio/thumb/{{img.file}}" title="{{img.title}}" alt="{{img.alt}}"/>
+    <i class="fa fa-search-plus"></i>
+  </a>
+  {{/if}}
+
+  {{#if link}}
+    {{#with link}}
+      <p class="text-centered">
+        <a href="{{address}}" target="_blank" class="external">
+          <span>{{label}}</span><i class="fa fa-external-link"></i>
+        </a>
+      </p>
+    {{/with}}
+  {{/if}}
+
 </div>

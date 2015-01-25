@@ -17,27 +17,16 @@
             {{/each}}
           {{/each}}
 
-          <div class="info-tile ">
-            <div class="pointer">
-              <div class="mark"></div>
-            </div>
-            <p>Completed MongoDB University course 'M101JS: MongoDB for Node.js Developers'</p>
-            <a href="img/portfolio/large/mongo.png" class="view-large">
-              <img src="img/portfolio/thumb/mongo.png" title="Google Analytics Platform Principles certificate" alt="MongoDB certificate"/>
-              <span class="icon-zoom-in"></span>
-            </a>
-            <p class="text-centered">
-              <a href="https://university.mongodb.com/courses/10gen/M101JS/2014_June/about" target="_blank" class="external">
-                <span>Visit course page</span><span class="icon-new-tab"></span>
-              </a>
-            </p>
-          </div>
-
-
-
         </div>
         <div class="right-row">
 
+          {{#each timeline.year}}
+            {{#each tiles.right}}
+              {{> tile}}
+            {{/each}}
+          {{/each}}
+
+          {{#if false}}
           <div class="info-tile ">
             <div class="pointer">
               <div class="mark"></div>
@@ -54,6 +43,7 @@
             </p>
           </div>
 
+
           <div class="info-tile ">
             <div class="pointer">
               <div class="mark"></div>
@@ -61,6 +51,8 @@
             <h3>JPotapova.info</h3>
             <p class="text-centered">Developed portfolio website</p>
           </div>
+
+          {{/if}}
 
         </div>
       </div>

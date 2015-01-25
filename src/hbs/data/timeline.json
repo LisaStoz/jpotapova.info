@@ -7,10 +7,38 @@
           {
             "title": "Open Reply UK",
             "description": "In 2014 I left Artlogic Media Ltd and joined Open Reply UK as Mobile Frontend Developer."
+          },
+          {
+            "description": "Completed MongoDB University course 'M101JS: MongoDB for Node.js Developers'",
+            "img": {
+              "file": "mongo.png",
+              "title": "Google Analytics Platform Principles certificate",
+              "alt": "MongoDB certificate"
+            },
+            "link": {
+              "address": "https://university.mongodb.com/courses/10gen/M101JS/2014_June/about",
+              "label": "Visit course page"
+            }
           }
         ],
         "right": [
-
+          {
+            "description": "Completed Google Analytics Academy course 'Google Analytics Platform Principles'",
+            "img": {
+              "file": "googleanalytics2.png",
+              "title": "Google Analytics Platform Principles certificate",
+              "alt": "Google Analytics Platform Principles certificate"
+            },
+            "link": {
+              "link": "https://analyticsacademy.withgoogle.com/course02",
+              "label": "Visit course page"
+            }
+          },
+          {
+            "title": "JPotapova.info",
+            "description": "Developed portfolio website",
+            "desccentered": true
+          }
         ]
       }
     }

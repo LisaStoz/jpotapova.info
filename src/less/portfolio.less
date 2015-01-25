@@ -1,22 +1,22 @@
 .portfolio-border () {
-    border: @border-style-2 lighten(@colour-black, 30%);					
-    border-radius: 6px;                
+    border: @border-style-2 lighten(@colour-black, 30%);
+    border-radius: 6px;
 }
 
 .portfolio {
-    position: relative;     
+    position: relative;
     margin-right: 10px;
     margin-left: 10px;
-    
+
 
     *, *:before, *:after {
         .box-sizing;
-    }    
+    }
 }
 
 .column() {
-    width: 100%;    
-    display:inline-block;	
+    width: 100%;
+    display:inline-block;
     position: relative;
 
     .pointer {
@@ -34,13 +34,13 @@
 .left-row {
     .column;
     .left;
-    .pointer{		
-        right: -3 * @size-base;			
+    .pointer{
+        right: -3 * @size-base;
         .mark{
             right: -6px;
         }
     }
-    
+
     .animated {
         right: 0;
     }
@@ -49,8 +49,8 @@
 .right-row{
     .column;
     .right;
-    .pointer{		
-        left: -3 * @size-base;					
+    .pointer{
+        left: -3 * @size-base;
         .mark{
             left: -5px;
         }
@@ -58,38 +58,38 @@
 
     .animated {
         left: 0;
-    }	
+    }
 }
 
 .view-large {
-    
+
     cursor: default;
-    
+
     span {
         .hide;
     }
 }
 
-@media @mobile-max {    
-    
+@media @mobile-max {
+
     .portfolio {
         .spacing-horizontal(margin, 0);
     }
-    
+
     .left-row {
-       
+
        width: 50%;
        .spacing(padding, right, 3);
     }
-    
+
     .right-row{
-        
+
         width: 50%;
         .spacing(padding, left, 3);
     }
-    
+
     .year-box{
-       
+
         &:before{
             .left;
             height: 100%;
@@ -99,16 +99,16 @@
             position: absolute;
             background: lighten(@colour-black, 30%);
             content:"";
-            z-index:-1; 
+            z-index:-1;
         }
-       
+
     }
-    
+
     .pointer{
         display: block;
         position: absolute;
         top: 50%;
-        width: 3 * @size-base;		
+        width: 3 * @size-base;
         height: 1px;
         background: lighten(@colour-black, 30%);
 
@@ -119,11 +119,11 @@
             width: 9px;
             height: 9px;
             border-radius: 5px;
-            background: lighten(@colour-black, 30%);	
+            background: lighten(@colour-black, 30%);
         }
     }
-    
-    .view-large {  
+
+    .view-large {
         cursor: pointer;
         text-decoration: none;
         font-size: 20px;
@@ -135,16 +135,16 @@
         &:hover {
 
             .icon-zoom-in {
-                background: fadeout(@colour-white, 30%); 
+                background: fadeout(@colour-white, 30%);
             }
         }
 
-        span {
+        i {
             display: block;
             bottom: @size-base * 2;
             right: @size-base * 0.5;
             position: absolute;
-            background: fadeout(@colour-white, 40%); 
+            background: fadeout(@colour-white, 40%);
             border-radius: 10px;
             .spacing-horizontal(padding, 0.5);
             .spacing-vertical(padding, 0.5);
@@ -152,17 +152,17 @@
             border: @border-style-2 @colour-black;
         }
     }
-    
+
 }
 
 
-    
+
 
 
 .time-nav {
     .clear;
     .full-width;
-    .left;    
+    .left;
 
     display:inline-block;
     height: 100%;
@@ -172,10 +172,10 @@
 
     h2 {
         .centered;
-        .spacing-vertical(margin, 0);      
+        .spacing-vertical(margin, 0);
         .spacing-horizontal(padding, 0);
-        .spacing-vertical(padding, 0);		        
-        width: 100px;       
+        .spacing-vertical(padding, 0);
+        width: 100px;
         .portfolio-border;
         color: @colour-black;
         .size-up(1);
@@ -189,13 +189,13 @@
     display: block;
     .full-width;
     position:relative;
-    
-    
+
+
     &.hide {
         .hide;
     }
-    
-        
+
+
     &:first-child{
         .time-nav{
             .spacing(margin, top, 0);
@@ -205,56 +205,56 @@
     &:last-child{
         .spacing(margin, bottom, 5);
     }
-    
+
     .now {
         display: block;
         .spacing-vertical(padding, 0.5);
         .spacing-horizontal(padding, 0.5);
     }
-    
+
     .year {
         .now;
-        
+
         &:first-child {
             border-bottom: @border-style-2 @colour-black;
         }
     }
-                  
+
     .icon-arrow-up {
         .spacing(margin, left, 0.5);
     }
-    
+
     .icon-arrow-down {
         .spacing(margin, right, 0.5);
     }
 }
 
 .info-tile {
-    .full-width;    	
+    .full-width;
     .portfolio-border;
-    .spacing(margin, top, 3);    
+    .spacing(margin, top, 3);
     position: relative;
     .spacing-horizontal(padding, 0);
-    .spacing(padding, top);    
+    .spacing(padding, top);
     .spacing(padding, bottom, 0);
 
-    
-    
-    
+
+
+
 
     img{
         .full-width;
-        height: auto;        
+        height: auto;
         .spacing(margin, bottom);
         .left;
-    }       
+    }
 
     h3 {
         .spacing(margin, top, 0);
         .spacing(margin, bottom);
         .spacing-horizontal(padding);
         .size-up(4);
-        font-size: @calculated-size; 
+        font-size: @calculated-size;
         color: @colour-black;
     }
 
@@ -262,38 +262,34 @@
         .spacing-horizontal(padding);
         .spacing(margin, bottom);
         .spacing(padding, bottom, 0);
-        .clear;       
+        .clear;
     }
 }
 
 
 .hidden-tile{
-    
+
     position: absolute;
     top: 0;
     overflow: hidden;
     opacity: 0;
-    z-index: -5; 
-    
+    z-index: -5;
+
 }
 
 
 .animated {
     opacity: 1;
     z-index: 5;
-    transition: 1s;	
+    transition: 1s;
     -moz-transition: 1s;
     -webkit-transition: 1s;
 }
 
+.external {
+    text-decoration: none;
 
-
-
-
-.external {            
-    text-decoration: none;    
-
-    .icon-new-tab {
+    .fa-external-link {
         .spacing(padding, left, 0.25);
         text-decoration: none;
     }
@@ -305,7 +301,7 @@
 
 .subtitle {
     .size-up(5);
-    font-size: @calculated-size; 
+    font-size: @calculated-size;
     font-weight: 400;
     color: @colour-violet;
 }
