@@ -9,6 +9,7 @@
   <meta property="og:image" content="http://www.jpotapova.info/img/portfolio/facebook/mongo.png" />
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,300' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Nixie+One' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/main.css" media="all">
   <link rel="stylesheet" href="css/print.css" media="print">
 
@@ -30,12 +31,7 @@
   <!-- header begin -->
   <div id="header">
     <h1 class="logo">Jelizaveta Potapova</h1>
-    <div class="social">
-      <a href="http://uk.linkedin.com/in/jpotapova" target="_blank"><span class="icon-linkedin"></span></a>
-      <a href="mailto:hi@jpotapova.info" target="_blank"><span class="icon-envelop"></span></a>
-      <a href="https://github.com/LisaStoz" target="_blank"><span class="icon-github"></span></a>
-      <a href="https://twitter.com/LisaStoz" target="_blank"><span class="icon-twitter"></span></a>
-    </div>
+    {{> social}}
   </div>
   <!-- header end -->
 
@@ -1200,21 +1196,18 @@
                                     </div>
                                     <!-- main end -->
 
-<!-- footer begin -->
-<div id="footer">
-  <div class="social">
-    <a href="http://uk.linkedin.com/in/jpotapova" target="_blank"><span class="icon-linkedin"></span></a>
-    <a href="mailto:potapova.jelizaveta@gmail.com" target="_blank"><span class="icon-envelop"></span></a>
-    <a href="https://github.com/LisaStoz" target="_blank"><span class="icon-github"></span></a>
-    <a href="https://twitter.com/LisaStoz" target="_blank"><span class="icon-twitter"></span></a>
-  </div>
-  <p id="copyright">&copy; 2014 JPotapova.info</p>
-  <p class="credits">Credits</p>
-  <p><small>On this website I am using<br><a href="http://icomoon.io/#preview-free" target="_blank">Icomoon's Free icon pack</a> released under <a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU General Public License</a>,<br>
-    Google Fonts - <a href="https://www.google.com/fonts/specimen/Nixie+One" target="_blank">Nixie One</a> released under <a href="http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&amp;id=OFL" target="_blank">SIL Open Font License, 1.1</a><br>
-    and <a href="http://www.google.com/fonts/specimen/Open+Sans" target="_blank">Open Sans</a> released under <a href="http://www.apache.org/licenses/LICENSE-2.0.html" target="_blank">Apache License, version 2.0</a>,<br>
-    <a href="http://jquery.com/" target="_blank">jQuery Javascript library</a> released under <a href="https://github.com/jquery/jquery/blob/master/MIT-LICENSE.txt" target="_blank">MIT licence</a>,<br>
-    <a href="http://fancyapps.com/fancybox/" target="_blank">Fancybox 2</a> jQuery plugin released under <a href="http://creativecommons.org/licenses/by-nc/3.0/" target="_blank">Creative Commons Attribution-NonCommercial 3.0 licence</a>.</small></p>
+  <!-- footer begin -->
+  <div id="footer">
+    {{> social}}
+    <p id="copyright">&copy; 2014-2015 JPotapova.info</p>
+    <p class="credits">Credits</p>
+    <p>
+      <small>On this website I am using<br>
+      <a href="http://fortawesome.github.io/Font-Awesome/" target="_blank">Font Awesome</a> font and CSS toolkit<br>
+      Google Fonts - <a href="https://www.google.com/fonts/specimen/Nixie+One" target="_blank">Nixie One</a> and <a href="http://www.google.com/fonts/specimen/Open+Sans" target="_blank">Open Sans</a> <br>
+      <a href="http://jquery.com/" target="_blank">jQuery Javascript library</a>and <a href="http://fancyapps.com/fancybox/" target="_blank">Fancybox 2</a> jQuery plugin
+      </small>
+    </p>
   </div>
   <!-- footer end -->
   <!-- back to top button -->
