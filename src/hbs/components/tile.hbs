@@ -29,4 +29,14 @@
     {{/with}}
   {{/if}}
 
+  {{#if links}}
+    {{#each links}}
+      <p class="text-centered">
+        <a href="{{address}}" target="_blank" class="external">
+          <span>{{label}}</span><i class="fa fa-external-link"></i>
+        </a>
+      </p>
+    {{/each}}
+  {{/if}}
+
 </div>
