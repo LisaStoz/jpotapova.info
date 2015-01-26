@@ -169,8 +169,124 @@
               "address": "http://www.lisastoz.com/demo/xndx5x",
               "label": "About, demo and Docs"
             }
+          },
+          {
+            "title": "Fare Calculator",
+            "description": "<p class='text-centered'><small>*side project</small></p><p>Non-profit project, makes travel on London Public Transport cost calculation and comparison, uses Journey Planner TFL API, interface heavily relies on Twitter Bootstrap 2.</p>",
+            "img": {
+              "file": "farecalculator.png",
+              "classes": "border-top border-bottom",
+              "title": "Fare Calculator",
+              "alt": "Fare Calculator website screenshot"
+            },
+            "link": {
+              "address": "http://www.farecalculator.co.uk",
+              "label": "Visit website"
+            }
+          },
+          {
+            "title": "Lisa Stoz",
+            "description": "<p class='text-centered'><small>*side project</small></p><p>Simple website, where I started describing side projects I am working on, useful code snippets and thoughts. Originally built with LESS, but later migrated to Ghost blogging platform and set up on Amazon EC2.</p>",
+            "img": {
+              "file": "lisastoz2.png",
+              "title": "Lisa Stoz",
+              "alt": "Lisa Stoz screenshot",
+              "classes": "border-bottom"
+            },
+            "link": {
+              "address": "http://www.lisastoz.com/",
+              "label": "Visit website"
+            }
+          },
+          {
+            "description": "<p>Joined CodeWars, keep solving Javascript puzzles.</p>",
+            "link": {
+              "address": "http://www.codewars.com/users/LisaStoz",
+              "label": "See my profile"
+            }
+          },
+          {
+            "description": "<p>Joined <a href='http://www.codebar.io' target='_blank' class='external'><span class='label'>Codebar.io</span><span class='icon-new-tab'></span></a> and started coaching ladies on programming skills.</p>",
+            "link": {
+              "address": "http://www.codebar.io/wall-of-fame",
+              "label": "See me on the wall of fame"
+            }
+          },
+          {
+            "title": "Digital Analytics Fundamentals",
+            "description": "<p>Completed Google Analytics Academy course</p>",
+            "img": {
+              "file": "googleanalytics.png",
+              "title": "Google Analytics certificate",
+              "alt": "Google Analytics certificate",
+              "classes": "border-bottom"
+            },
+            "link": {
+              "address": "https://analyticsacademy.withgoogle.com/course01",
+              "label": "Visit course page"
+            }
+          },
+          {
+            "title": "Mind Sports Olympiad",
+            "description": "<p>Took part in Mind Sports Olympiad, Computer Programming competition. Participants were given about 3.5 hours to complete 4 algorithmic tasks. I took 4th place.</p>",
+            "link": {
+              "address": "http://www.msoworld.com/2013/05/computer-programming-compeition/",
+              "label": "Visit competition website"
+            }
           }
         ]
+      }
+    },
+    {
+      "up": "2013",
+      "down": "2012",
+      "hide": "true",
+      "tiles": {
+        "left": [
+          {
+            "title": "Bookbuzz",
+            "description": "<p class='text-centered'><small>*massively contributed while working in Artlogic</small></p><p>Books carousel, variuos sliders, bookfinder, dynamically generated e-cards, password protected area</p>",
+            "img": {
+              "file": "bookbuzz.png",
+              "title": "Bookbuzz",
+              "alt": "Bookbuzz website screenshot",
+              "classes": "border-top"
+            },
+            "link": {
+              "address": "http://www.bookbuzz.org.uk/",
+              "label": "Visit website"
+            }
+          },
+          {
+            "title": "Bookstart",
+            "description": "<p class='text-centered'><small>*massively contributed while working in Artlogic</small></p><p>Advanced recurring events search, sliders, dynamically generated e-cards, password protected areas, dynamic PDF generators</p>",
+            "img": {
+              "file": "bookstart.png",
+              "title": "Bookstart",
+              "alt": "Bookstart website screenshot",
+              "classes": "border-bottom"
+            },
+            "link": {
+              "address": "http://www.bookstart.org.uk/",
+              "label": "Visit website"
+            }
+          },
+          {
+            "title": "The Copper House Gallery",
+            "description": "<p class='text-centered'><small>*massively contributed while working in Artlogic</small></p><p>Shopping cart and integration with WorldPay</p>",
+            "img": {
+              "file": "copperhouse.png",
+              "classes": "border-top border-bottom",
+              "alt": "The Copper House Gallery screenshot",
+              "title": "The Copper House Gallery"
+            },
+            "link": {
+              "address": "http://www.thecopperhousegallery.com/",
+              "label": "Visit website"
+            }
+          }
+        ],
+        "right": []
       }
     }
   ]
