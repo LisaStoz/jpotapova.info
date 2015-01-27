@@ -286,7 +286,26 @@
             }
           }
         ],
-        "right": []
+        "right": [
+          {
+            "title": "Waldon Energy",
+            "description": "<p class='text-centered'><small>*side project, in collaboration with 4spin.eu team</small></p><p>Redeveloped: applied new design and added new features, e.g. slideshow, countdown counter, accordion in the news section - all manually developed with jQuery, live data feed. Earlier I developed this site in 2010.</p>",
+            "img": {
+              "file": "waldonenergy.png",
+              "classes": "border-top",
+              "title": "Waldon Energy",
+              "alt": "Waldon Energy website screenshot"
+            },
+            "link": {
+              "address": "http://waldonenergy.co.uk",
+              "label": "Visit website"
+            }
+          },
+          {
+            "title": "Fare Calculator",
+            "description": "<p class='text-centered'><small>*side project</small></p><p>Started working on Fare Calculator, which was finished and <a href='#fare-calculator'>launched later in 2013</a>.</p>"
+          }
+        ]
       }
     }
   ]
