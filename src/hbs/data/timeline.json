@@ -441,6 +441,106 @@
           }
         ]
       }
+    },
+    {
+      "up": "2010",
+      "down": "2009",
+      "tiles": {
+        "left": [
+          {
+            "title": "Treenex",
+            "description": "<p class='text-centered'><small>*massively contributed while working in Bonus Optimus.</small></p><p>Website (initially a mini social network) where a greeting card can be purchased. For each greeting card a tree gets planted and buyers can login and watch the photos of their trees growing.</p>",
+            "img": {
+              "file": "treenex.png",
+              "title": "Treenex",
+              "alt": "Treenex website screenshot"
+            },
+            "link": {
+              "address": "http://www.treenex.com/",
+              "label": "Visit website"
+            }
+          },
+          {
+            "title": "Decovil",
+            "description": "<p class='text-centered'><small>*developed while working in Bonus Optimus.</small></p><p>Curtains specialist</p>",
+            "img": {
+              "file": "decovil.png",
+              "title": "Decovil",
+              "alt": "Decovil website screenshot",
+              "classes": "border-top border-bottom"
+            },
+            "link": {
+              "address": "http://www.decovil.lt/",
+              "label": "Visit website"
+            }
+          },
+          {
+            "title": "Pasyvūs Namai",
+            "description": "<p class='text-centered'><small>*developed while working in Bonus Optimus.</small></p><p>Company building ecologically efficient houses.</p>",
+            "img": {
+              "file": "pasyvusnamai.png",
+              "title": "Pasyvūs Namai",
+              "alt": "Pasyvūs Namai website screenshot"
+            },
+            "link": {
+              "address": "http://www.pasyvusnamai.lt/",
+              "label": "Visit website"
+            }
+          },
+          {
+            "title": "Job",
+            "description": "<p>Left UAB 'AskoBaltis' and started working in UAB 'Bonus Optimus' (trademark BBQ.lt). In Bonus Optimus I used PHP, CodeIgniter Framework, MySQL, HTML, CSS, Javascript, jQuery, AJAX, worked on variuos websites and CMS.</p>"
+          }
+        ],
+        "right": [
+          {
+            "title": "Ekokarta",
+            "description": "<p class='text-centered'><small>*massively contributed while working in Bonus Optimus.</small></p><p>Ecological initiative</p>",
+            "img": {
+              "file": "ekokarta.png",
+              "title": "Ekokarta",
+              "alt": "Ekokarta website screenshot"
+            },
+            "link": {
+              "address": "http://www.ekokarta.lt/",
+              "label": "Visit website"
+            }
+          },
+          {
+            "description": "<p>Learnt UML and MDA.</p>"
+          },
+          {
+            "title": "Computer emulator and OS",
+            "description": "<p class='text-centered'><small>*academic project</small></p><p>Using Borland Delphi developed a computer emulator and operating system for it. Operating system was able to run basic  programs written in specific assembler-like language, accept input it provide output. It was demonstrating how it is using its internal resources.</p>"
+          },
+          {
+            "title": "Mažoji Mokyklėlė",
+            "description": "<p class='text-centered'><small>*developed while working in Bonus Optimus.</small></p><p>Saturday school for children</p>",
+            "img": {
+              "file": "mazojimokyklele.png",
+              "title": "Mažoji Mokyklėlė",
+              "alt": "Mažoji Mokyklėlė website screenshot"
+            },
+            "link": {
+              "address": "http://www.mazojimokyklele.lt/",
+              "label": "Visit website"
+            }
+          },
+          {
+            "title": "TSP-legal",
+            "description": "<p class='text-centered'><small>*developed while working in Bonus Optimus.</small></p><p>Multi-lingual website for law specialist</p>",
+            "img": {
+              "file": "tsplegal.png",
+              "title": "TSP Legal",
+              "alt": "TSP Legal website screenshot"
+            },
+            "link": {
+              "address": "http://www.tsp-legal.lt/",
+              "label": "Visit website"
+            }
+          }
+        ]
+      }
     }
   ]
 }
