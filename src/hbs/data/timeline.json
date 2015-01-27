@@ -304,7 +304,54 @@
           {
             "title": "Fare Calculator",
             "description": "<p class='text-centered'><small>*side project</small></p><p>Started working on Fare Calculator, which was finished and <a href='#fare-calculator'>launched later in 2013</a>.</p>"
+          },
+          {
+            "title": "Jenna Burligham Fine Art",
+            "description": "<p class='text-centered'><small>*contributed while working in Artlogic</small></p><p>Artworks categorisation and integration with Artlogic Online</p>",
+            "img": {
+              "file": "jennaburlingham.png",
+              "classes": "border-top border-bottom",
+              "title": "Jenna Burligham Fine Art",
+              "alt": "Jenna Burligham Fine Art website screenshot"
+            },
+            "link": {
+              "address": "http://www.jennaburlingham.com/",
+              "label": "Visit website"
+            }
+          },
+          {
+            "title": "Artlogic CMS",
+            "description": "<p class='text-centered'><small>*massively contributed while working in Artlogic</small></p>",
+            "link": {
+              "address": "http://www.artlogiconline.com/",
+              "label": "Read about Artlogic CMS"
+            }
           }
+        ]
+      }
+    },
+    {
+      "up": "2012",
+      "down": "2011",
+      "tiles": {
+        "left": [
+          {
+            "title": "Ibraaz",
+            "description": "<p class='text-centered'><small>*developed while working in Artlogic</small></p><p>News portal with advanced search, manually developed slideshow, automatic article relation based on tags, twitter feed.</p>",
+            "img": {
+              "file": "ibraaz.png",
+              "classes": "border-top border-bottom",
+              "title": "Ibraaz",
+              "alt": "Ibraaz website screenshot"
+            },
+            "link": {
+              "address": "http://www.ibraaz.org/",
+              "label": "Visit website"
+            }
+          }
+        ],
+        "right": [
+        
         ]
       }
     }
