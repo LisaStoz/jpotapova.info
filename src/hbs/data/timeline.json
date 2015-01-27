@@ -348,10 +348,97 @@
               "address": "http://www.ibraaz.org/",
               "label": "Visit website"
             }
+          },
+          {
+            "title": "Letterbox Club",
+            "description": "<p class='text-centered'><small>*massively contributed while working in Artlogic</small></p><p>Sliders, password-protected areas, TheyWorkForYou feed, etc.</p>",
+            "img": {
+              "file": "letterboxclub.png",
+              "classes": "border-top",
+              "title": "Letterbox Club",
+              "alt": "Letterbox Club website screenshot"
+            },
+            "link": {
+              "address": "http://www.letterboxclub.org.uk/",
+              "label": "Visit website"
+            }
+          },
+          {
+            "title": "Job",
+            "description": "<p>Moved to London and started working in <a href='http://www.artlogic.net' target='_blank' class='external'><span class='label'>Artlogic Media Ltd</span><span class='icon-new-tab'></span></a>, where I was developing websites, doing complex data imports, contributing to CMS and Art Gallery database system development. Here I worked with Python, Pylons, MySQL, HTML5, CSS3, jQuery.</p>"
           }
         ],
         "right": [
-        
+          {
+            "title": "Booktime",
+            "description": "<p class='text-centered'><small>*developed while working in Artlogic</small></p><p>Various sliders, carousel, animated Booky character, voting, etc.</p>",
+            "img": {
+              "file": "booktime.png",
+              "title": "Booktime",
+              "alt": "Booktime website screenshot"
+            },
+            "link": {
+              "address": "http://www.booktime.org.uk/",
+              "label": "Visit website"
+            }
+          },
+          {
+            "title": "Children's Laureate",
+            "description": "<p class='text-centered'><small>*developed while working in Artlogic</small></p><p>Sliders, twitter API, voting, etc.</p>",
+            "img": {
+              "file": "childrenslaureate.png",
+              "title": "Childrens Laureate",
+              "alt": "Childrens Laureate website screenshot"
+            },
+            "link": {
+              "address": "http://www.childrenslaureate.org.uk/",
+              "label": "Visit website"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "up": "2011",
+      "down": "2010",
+      "tiles": {
+        "left": [
+          {
+            "title": "Waldon Energy",
+            "description": "<p class='text-centered'><small>*freelance project</small></p><p>Developed and launched waldon energy website, which I <a href='#waldon-energy'>later re-developed in 2012</a>.</p>"
+          },
+          {
+            "title": "Adverts Campaigns Managing system",
+            "description": "<p class='text-centered'><small>*freelance project</small></p><p>Developed an advanced adverts playlist generator system for <a href='http://www.bgs.aero/' target='_blank' class='external'><span class='label'>Baltic Ground Services</span><span class='icon-new-tab'></span></a>. Generated adverts queue is currently displayed on one of TV devices in Vilnius Airport. The system helps managing advert campaigns and generates playlists every day depending on each advert length and timing settings, such as how many times per hour or per day an advert must be shown, accepts more complex settings, such as which hours exactly an advert should be shown, which day of the week, etc. The project was developed with PHP.</p>"
+          },
+          {
+            "title": "Job",
+            "description": "  <p>Left UAB 'Bonus Optimus' and started working on freelance projects.</p>"
+          }
+        ],
+        "right": [
+          {
+            "title": "Drabuziu Taisykla",
+            "description": "<p>Developed a static website for my mother - self-employed tailor.</p><p>Website achieved stunning organic search results among tailor companies and specialists in Lithuania.</p>",
+            "img": {
+              "file": "drabuziutaisykla.png",
+              "title": "Drabuziu Taisykla",
+              "alt": "Drabuziu taisykla website screenshot",
+              "classes": "border-bottom"
+            },
+            "link": {
+              "label": "Visit website",
+              "address": "http://www.drabuziutaisykla.lt/"
+            }
+          },
+          {
+            "title": "Graduation",
+            "description": "<p>Graduated from <a href='http://mif.vu.lt/en2/' target='_blank' class='external'><span class='label'>Vilnius University</span><span class='icon-new-tab'></span></a> and received Bachelor's degree in computer science.</p>"
+          },
+          {
+            "title": "Steganographic methods",
+            "description": "<p class='text-centered'><small>*academic project</small></p><p>Using Java developed a set of applications implementing various steganographic methods.</p>"
+          }
         ]
       }
     }
