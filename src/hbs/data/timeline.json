@@ -541,6 +541,88 @@
           }
         ]
       }
+    },
+    {
+      "up": "2009",
+      "down": "2008",
+      "tiles": {
+        "left": [
+          {
+            "title": "Naudoti Auto",
+            "description": "<p class='text-centered'><small>*massively contributed while working in Askobaltis.</small></p><p>Catalogue website for car retailer, includes gallery and dynamic pdf generator</p>",
+            "img": {
+              "file": "naudotiauto.png",
+              "classes": "border-bottom border-top",
+              "title": "Naudoti Auto",
+              "alt": "Naudoti Auto screenshot"
+            },
+            "link": {
+              "address": "http://www.naudotiauto.lt/",
+              "label": "Visit website"
+            }
+          },
+          {
+            "title": "Think Shop",
+            "description": "<p class='text-centered'><small>*massively contributed while working in Askobaltis.</small></p><p>E-commerce website for Lenovo retailer</p>",
+            "img": {
+              "file": "thinkshop.png",
+              "classes": "border-bottom",
+              "title": "ThinkShop",
+              "label": "ThinkShop website screenshot"
+            },
+            "link": {
+              "address": "http://www.thinkshop.lt/",
+              "label": "Visit website"
+            }
+          },
+          {
+            "title": "Credo Baldai",
+            "description": "<p class='text-centered'><small>*developed while working in Askobaltis.</small></p><p>Furniture retailer, includes basic slideshow and lightbox gallery</p>",
+            "img": {
+              "file": "credobaldai.png",
+              "title": "Credo Baldai",
+              "label": "Credo Baldai screenshot"
+            },
+            "link": {
+              "address": "http://www.credobaldai.lt/",
+              "label": "Visit website"
+            }
+          },
+          {
+            "title": "BTService",
+            "description": "<p class='text-centered'><small>*developed while working in Askobaltis.</small></p><p>Multi-lingual website for a steel pipes specialist company</p>",
+            "img": {
+              "file": "btservice.png",
+              "title": "BT Service",
+              "alt": "BT Service website screenshot"
+            },
+            "link": {
+              "address": "http://www.btservice.lt/",
+              "label": "Visit website"
+            }
+          },
+          {
+            "title": "Job",
+            "description": "<p>Started working at UAB 'Askobaltis' as Junior web developer. Used PHP, MySQL, HTML, CSS, JavaScript, jQuery, AJAX, MooTools, Zend Framework. Worked on various websites and CMS.</p>"
+          },
+          {
+            "title": "Oilio",
+            "description": "<p class='text-centered'><small>*side project, developed together with coursemate</small></p><p>Multi-lingual website for a company specialising in edible oil wholesale.</p><p class='text-centered'><small>*now it is rebranded and redeveloped by another company</small></p>",
+            "link": {
+              "address": "http://www.oilio.lt/",
+              "label": "Visit current website"
+            }
+          },
+          {
+            "title": "Language and translator application",
+            "description": "<p class='text-centered'><small>*academic project</small></p><p>Using Java created an artificial procedural language and developed a translator for it.</p>"
+          },
+          {
+            "description": "<p>Learnt to Program in Java</p><p>Learnt SQL and relational databases</p><p>Learnt to Program in Oracle PL/SQL</p><p>Learnt to Program in Prolog</p>"
+          }
+        ],
+        "right": []
+      }
     }
   ]
 }
