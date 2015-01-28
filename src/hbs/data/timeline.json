@@ -604,7 +604,9 @@
           {
             "title": "Job",
             "description": "<p>Started working at UAB 'Askobaltis' as Junior web developer. Used PHP, MySQL, HTML, CSS, JavaScript, jQuery, AJAX, MooTools, Zend Framework. Worked on various websites and CMS.</p>"
-          },
+          }
+        ],
+        "right": [
           {
             "title": "Oilio",
             "description": "<p class='text-centered'><small>*side project, developed together with coursemate</small></p><p>Multi-lingual website for a company specialising in edible oil wholesale.</p><p class='text-centered'><small>*now it is rebranded and redeveloped by another company</small></p>",
@@ -619,9 +621,50 @@
           },
           {
             "description": "<p>Learnt to Program in Java</p><p>Learnt SQL and relational databases</p><p>Learnt to Program in Oracle PL/SQL</p><p>Learnt to Program in Prolog</p>"
+          },
+          {
+            "title": "Office Guru",
+            "description": "<p class='text-centered'><small>*massively contributed while working in Askobaltis.</small></p><p>E-commerce website for office supplier retailer</p>",
+            "img": {
+              "file": "officeguru.png",
+              "title": "Office Guru",
+              "alt": "Office Guru screenshot",
+              "classes": "border-bottom"
+            },
+            "alt": {
+              "address": "http://www.officeguru.lt/",
+              "label": "Visit website"
+            }
+          },
+          {
+            "title": "Aromabalt",
+            "description": "<p class='text-centered'><small>*massively contributed while working in Askobaltis.</small></p><p>Catalogue website for aromatherapy products retailer</p>",
+            "img": {
+              "file": "aromabalt.png",
+              "classes": "border-top",
+              "title": "Aromabalt",
+              "alt": "Aromabalt website screenshot"
+            },
+            "alt": {
+              "address": "http://www.aromabalt.lt/",
+              "label": "Visit website"
+            }
+          },
+          {
+            "title": "Umeja",
+            "description": "<p class='text-centered'><small>*developed while working in Askobaltis.</small></p><p>Multi-lingual website for transportation company</p>",
+            "img": {
+              "file": "umeja.png",
+              "classes": "border-top border-bottom",
+              "title": "Umeja",
+              "alt": "Umeja website screenshot"
+            },
+            "alt": {
+              "address": "http://www.umeja.lt/index.php?lng=lt&amp;action=contacts",
+              "label": "Visit website"
+            }
           }
-        ],
-        "right": []
+        ]
       }
     }
   ]
