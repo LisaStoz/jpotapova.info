@@ -708,8 +708,34 @@
       "up": "2006",
       "down": "2005",
       "tiles": {
-        "left": [],
-        "right": []
+        "right": [
+          {
+            "title": "Morse code recognision speed trainer",
+            "description": "<p class='text-centered'><small>*personal idea and implemention</small></p><p>Developed an app in Turbo Pascal, which was producing sound in morse code format based on supplied text and speed in characters-per-minute. I used it as a preparation tool for telegraphy competitions.</p>"
+          }
+        ]
+      }
+    },
+    {
+      "up": "2005",
+      "down": "2004",
+      "tiles": {
+        "left": [
+          {
+            "description": "<p>Kept admiring programming and getting perfect grades. Also took part in school/city programming olympiads.</p>"
+          }
+        ]
+      }
+    },
+    {
+      "up": "2003",
+      "down": "2001",
+      "tiles": {
+        "left": [
+          {
+            "description": "<p>At the age of 13 first learnt about programming in school. We were taught Turbo Pascal.</p>"
+          }
+        ]
       }
     }
   ]
