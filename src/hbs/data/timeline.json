@@ -666,6 +666,51 @@
           }
         ]
       }
+    },
+    {
+      "up": "2008",
+      "down": "2007",
+      "tiles": {
+        "left": [
+          {
+            "description": "<p>Learnt to Program in C</p><p>Learnt to Program in C++</p><p>Learnt to Program in Assembler</p>"
+          },
+          {
+            "description": "<p>Joined Vilnius University Students' Representation community and contributed to developing an online strategy game using PHP, MySQL, HTML, CSS.</p>"
+          }
+        ],
+        "right": [
+          {
+            "title": "Server/Client Chess app",
+            "description": "<p class='text-centered'><small>*academic project</small></p><p>Using C developed a system consisting of server application and client application. Two client applications were able to connect through server application and play chess. Server validated chess moves.</p>"
+          }
+        ]
+      }
+    },
+    {
+      "up": "2007",
+      "down": "2006",
+      "tiles": {
+        "left": [
+          {
+            "title": "Education",
+            "description": "<p>Completed school with honour and entered Computer Science programme in <a href='http://mif.vu.lt/en2/' target='_blank' class='external'><span class='label'>Vilnius University</span><span class='icon-new-tab'></span></a>.</p></div>"
+          }
+        ],
+        "right": [
+          {
+            "description": "<p>Joined algorithmisation seminar in Vilnius University and started taking part in<a href='http://www.opencup.ru' target='_blank' class='external'><span class='label'>International Open Cup programming competition</span><span class='icon-new-tab'></span></a>.</p>"
+          }
+        ]
+      }
+    },
+    {
+      "up": "2006",
+      "down": "2005",
+      "tiles": {
+        "left": [],
+        "right": []
+      }
     }
   ]
 }
