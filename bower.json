@@ -1,0 +1,13 @@
+{
+  "name": "jpotapova.info",
+  "version": "0.0.0",
+  "homepage": "https://github.com/LisaStoz/jpotapova.info",
+  "authors": [
+    "Jelizaveta Potapova"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "fancybox": "~2.1.5"
+  }
+}

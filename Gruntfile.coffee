@@ -13,5 +13,5 @@ module.exports = (grunt) ->
   ])
 
   grunt.registerTask('default', [
-    'dev', 'watch'
+    'dev', 'concurrent:dev'
   ])
