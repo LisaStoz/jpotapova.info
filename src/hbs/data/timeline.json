@@ -206,9 +206,9 @@
             }
           },
           {
-            "description": "<p>Joined <a href='http://www.codebar.io' target='_blank' class='external'><span class='label'>Codebar.io</span><span class='icon-new-tab'></span></a> and started coaching ladies on programming skills.</p>",
+            "description": "<p>Joined <a href='http://www.codebar.io' target='_blank' class='external'><span class='label'>Codebar.io</span><i class='fa fa-external-link'></i></a> and started coaching ladies on programming skills.</p>",
             "link": {
-              "address": "http://www.codebar.io/wall-of-fame",
+              "address": "http://www.codebar.io/coaches",
               "label": "See me on the wall of fame"
             }
           },
@@ -365,7 +365,7 @@
           },
           {
             "title": "Job",
-            "description": "<p>Moved to London and started working in <a href='http://www.artlogic.net' target='_blank' class='external'><span class='label'>Artlogic Media Ltd</span><span class='icon-new-tab'></span></a>, where I was developing websites, doing complex data imports, contributing to CMS and Art Gallery database system development. Here I worked with Python, Pylons, MySQL, HTML5, CSS3, jQuery.</p>"
+            "description": "<p>Moved to London and started working in <a href='http://www.artlogic.net' target='_blank' class='external'><span class='label'>Artlogic Media Ltd</span><i class='fa fa-external-link'></i></a>, where I was developing websites, doing complex data imports, contributing to CMS and Art Gallery database system development. Here I worked with Python, Pylons, MySQL, HTML5, CSS3, jQuery.</p>"
           }
         ],
         "right": [
@@ -409,7 +409,7 @@
           },
           {
             "title": "Adverts Campaigns Managing system",
-            "description": "<p class='text-centered'><small>*freelance project</small></p><p>Developed an advanced adverts playlist generator system for <a href='http://www.bgs.aero/' target='_blank' class='external'><span class='label'>Baltic Ground Services</span><span class='icon-new-tab'></span></a>. Generated adverts queue is currently displayed on one of TV devices in Vilnius Airport. The system helps managing advert campaigns and generates playlists every day depending on each advert length and timing settings, such as how many times per hour or per day an advert must be shown, accepts more complex settings, such as which hours exactly an advert should be shown, which day of the week, etc. The project was developed with PHP.</p>"
+            "description": "<p class='text-centered'><small>*freelance project</small></p><p>Developed an advanced adverts playlist generator system for <a href='http://www.bgs.aero/' target='_blank' class='external'><span class='label'>Baltic Ground Services</span><i class='fa fa-external-link'></i></a>. Generated adverts queue is currently displayed on one of TV devices in Vilnius Airport. The system helps managing advert campaigns and generates playlists every day depending on each advert length and timing settings, such as how many times per hour or per day an advert must be shown, accepts more complex settings, such as which hours exactly an advert should be shown, which day of the week, etc. The project was developed with PHP.</p>"
           },
           {
             "title": "Job",
@@ -433,7 +433,7 @@
           },
           {
             "title": "Graduation",
-            "description": "<p>Graduated from <a href='http://mif.vu.lt/en2/' target='_blank' class='external'><span class='label'>Vilnius University</span><span class='icon-new-tab'></span></a> and received Bachelor's degree in computer science.</p>"
+            "description": "<p>Graduated from <a href='http://mif.vu.lt/en2/' target='_blank' class='external'><span class='label'>Vilnius University</span><i class='fa fa-external-link'></i></a> and received Bachelor's degree in computer science.</p>"
           },
           {
             "title": "Steganographic methods",
@@ -631,7 +631,7 @@
               "alt": "Office Guru screenshot",
               "classes": "border-bottom"
             },
-            "alt": {
+            "link": {
               "address": "http://www.officeguru.lt/",
               "label": "Visit website"
             }
@@ -645,7 +645,7 @@
               "title": "Aromabalt",
               "alt": "Aromabalt website screenshot"
             },
-            "alt": {
+            "link": {
               "address": "http://www.aromabalt.lt/",
               "label": "Visit website"
             }
@@ -659,7 +659,7 @@
               "title": "Umeja",
               "alt": "Umeja website screenshot"
             },
-            "alt": {
+            "link": {
               "address": "http://www.umeja.lt/index.php?lng=lt&amp;action=contacts",
               "label": "Visit website"
             }
@@ -694,12 +694,12 @@
         "left": [
           {
             "title": "Education",
-            "description": "<p>Completed school with honour and entered Computer Science programme in <a href='http://mif.vu.lt/en2/' target='_blank' class='external'><span class='label'>Vilnius University</span><span class='icon-new-tab'></span></a>.</p></div>"
+            "description": "<p>Completed school with honours and entered Computer Science programme in <a href='http://mif.vu.lt/en2/' target='_blank' class='external'><span class='label'>Vilnius University</span><i class='fa fa-external-link'></i></a>.</p>"
           }
         ],
         "right": [
           {
-            "description": "<p>Joined algorithmisation seminar in Vilnius University and started taking part in<a href='http://www.opencup.ru' target='_blank' class='external'><span class='label'>International Open Cup programming competition</span><span class='icon-new-tab'></span></a>.</p>"
+            "description": "<p>Joined algorithmisation seminar in Vilnius University and started taking part in <a href='http://www.opencup.ru' target='_blank' class='external'><span class='label'>International Open Cup programming competition</span><i class='fa fa-external-link'></i></a>.</p>"
           }
         ]
       }
