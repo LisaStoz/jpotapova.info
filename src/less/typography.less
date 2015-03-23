@@ -1,17 +1,17 @@
 body {
     min-height: 100%;
-    .spacing-zero;   
+    .spacing-zero;
     color: @colour-black;
     .font-base;
-    font-size: @size-base;  
-    border-top: 2px solid @colour-violet;    
-    
-    
+    font-size: @size-base;
+    border-top: 2px solid @colour-violet;
+
+
 }
 
 .selection() {
     color: @colour-white;
-    background: @colour-green; 
+    background: @colour-green;
 }
 
 ::-moz-selection {
@@ -20,41 +20,41 @@ body {
 ::selection {
     .selection;
 }
-  
-h1 {  
+
+h1 {
     .heading;
     .size-up(6);
-    font-size: @calculated-size;    
-    .spacing(margin, top, 0);    
-    .spacing(margin, bottom, 4, -1);    
+    font-size: @calculated-size;
+    .spacing(margin, top, 0);
+    .spacing(margin, bottom, 4, -1);
 }
 
-h2 {    
+h2 {
     .heading;
     .size-up(4);
-    font-size: @calculated-size;      
-    .spacing(margin, top, 2);    
-    .spacing(margin, bottom, 2, -1);    
+    font-size: @calculated-size;
+    .spacing(margin, top, 2);
+    .spacing(margin, bottom, 2, -1);
 }
 
-h3 {   
+h3 {
     .heading;
     .size-up(3);
-    font-size: @calculated-size;      
-    .spacing(margin, top, 2);    
-    .spacing(margin, bottom, 1, -1);    
+    font-size: @calculated-size;
+    .spacing(margin, top, 2);
+    .spacing(margin, bottom, 1, -1);
 }
 
 a {
-    color: @colour-violet;   
+    color: @colour-violet;
 }
 
-p, ul, ol {    
-    .size-down(1);  
+p, ul, ol {
+    .size-down(1);
     line-height: @calculated-size * 2;
     font-size: @calculated-size;
-    
-    .spacing(margin, top, 0);    
+
+    .spacing(margin, top, 0);
     .spacing(margin, bottom, 2, -1);
 }
 
@@ -65,12 +65,4 @@ ul {
 
 img {
     border: none;
-}
-
-pre {
-    border-top: @border-style-1 @colour-black;
-    border-bottom: @border-style-1 @colour-black;
-    .spacing-vertical(padding, 1);
-    .spacing-horizontal(padding, 1);
-    background: @colour-lightgrey;   
 }
