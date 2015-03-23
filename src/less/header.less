@@ -1,9 +1,17 @@
-#header {
-    .body;
+.header {
+    width: 100%;
     .centered;
     .clear;
     .spacing(padding, top);
-    .spacing(padding, bottom, 5);
+    .spacing(padding, bottom);
+
+
+    &.sticky {
+      position: fixed;
+      background: fadeout(@colour-white, 10%);
+      .box-shadow(0px, 3px, 5px, 0px, @colour-black, 40%);
+      z-index: 1;
+    }
 
     .logo {
 
