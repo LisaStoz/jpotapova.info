@@ -1,0 +1,22 @@
+////
+//// @group Helpers
+////
+
+/// @output Text selection
+@mixin selection() {
+  color: $background-colour;
+  background: $brand-colour;
+}
+
+/// @output Cross browser box-shadow
+/// @param {px} $h Horizontal length
+/// @param {px} $v Vertical length
+/// @param {px} $b Blur
+/// @param {px} $s Spread
+/// @param {colour} $c Colour
+/// @param {decimal} $o Opacity
+@mixin box-shadow($h, $v, $b, $s, $c, $o) {
+  -webkit-box-shadow: $h $v $b $s fade-out($c, $o);
+  -moz-box-shadow: $h $v $b $s fade-out($c, $o);
+  box-shadow: $h $v $b $s fade-out($c, $o);
+}

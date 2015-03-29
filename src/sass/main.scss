@@ -1,7 +1,16 @@
 /// Portfolio website - Jelizaveta Potapova
 /// http://www.jpotapova.info
 
-@import 'config';
+// cofig imports begin
+@import 'config/colours';
+@import 'config/sizes';
+// config imports end
+
+// general
 @import 'helpers';
 @import 'layout';
 @import 'typography';
+@import 'header';
+
+// page specific
+@import 'timeline';
