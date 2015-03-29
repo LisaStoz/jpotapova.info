@@ -20,3 +20,13 @@
   -moz-box-shadow: $h $v $b $s fade-out($c, $o);
   box-shadow: $h $v $b $s fade-out($c, $o);
 }
+
+/// @output sitewide border style
+@mixin border($side: '') {
+   @if $side == '' {
+    border: 1px solid $border-colour;
+  } @else {
+    border-#{$side}: 1px solid $border-colour;
+  }
+
+}

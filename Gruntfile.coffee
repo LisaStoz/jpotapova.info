@@ -14,3 +14,7 @@ module.exports = (grunt) ->
   grunt.registerTask('default', [
     'dev', 'concurrent:dev'
   ])
+
+  grunt.registerTask('health', [
+    'scsslint', 'sass:dev', 'csslint'
+  ])

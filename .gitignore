@@ -4,3 +4,4 @@ app/**
 npm-debug.log
 src/vendor
 sassdoc
+.sass-cache
