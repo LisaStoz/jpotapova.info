@@ -7,7 +7,7 @@ module.exports = {
       'src/**/*.hbs'
       'src/**/*.json'
       'src/**/*.coffee'
-      'src/**/*.less'
+      'src/**/*.scss'
     ]
     tasks: ['dev']
 

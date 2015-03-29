@@ -8,6 +8,5 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "fancybox": "~2.1.5"
   }
 }

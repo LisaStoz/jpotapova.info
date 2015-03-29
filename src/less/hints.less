@@ -1,16 +1,14 @@
 .back-to-top {
-    position: fixed;
-    .hide;
+    position: absolute;
     .no-underline;
-    bottom: @size-base * 2;
-    right: @size-base * 0.5;
+    bottom: 0;
+    right: 0;
     background: fadeout(@colour-white, 40%);
     border-radius: 10px;
     .spacing-horizontal(padding, 0.5);
     .spacing-vertical(padding, 0.5);
-    color: @colour-black;
-    border: @border-style-2 @colour-black;
-    z-index: 10;
+    color: @colour-border;
+    border: @border-style-2 @colour-border;
 
     &:hover {
         color: @colour-violet;

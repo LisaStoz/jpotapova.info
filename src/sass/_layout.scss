@@ -1,0 +1,13 @@
+body {
+  padding: 0;
+  margin: 0;
+  
+}
+.main {
+  padding: $size;
+}
+
+.container {
+  max-width: $size * 60;
+  width: 100%;
+}

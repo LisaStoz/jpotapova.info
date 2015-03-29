@@ -8,8 +8,7 @@ module.exports = (grunt) ->
 
   grunt.registerTask('dev', [
       'assemble:pages'
-      'less:dev'
-      'uglify:dev'
+      'sass:dev'
   ])
 
   grunt.registerTask('default', [
