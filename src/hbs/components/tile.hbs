@@ -4,7 +4,7 @@
   </div>
 
   {{#if title}}
-    <h3>{{title}}</h3>
+    <h3 class="subheading">{{title}}</h3>
   {{/if}}
   {{#if description}}
     {{{description}}}
@@ -21,7 +21,7 @@
 
   {{#if link}}
     {{#with link}}
-      <p class="text-centered">
+      <p class="link">
         <a href="{{address}}" target="_blank" class="external">
           <span>{{label}}</span><i class="fa fa-external-link"></i>
         </a>
@@ -31,7 +31,7 @@
 
   {{#if links}}
     {{#each links}}
-      <p class="text-centered">
+      <p class="link">
         <a href="{{address}}" target="_blank" class="external">
           <span>{{label}}</span><i class="fa fa-external-link"></i>
         </a>
