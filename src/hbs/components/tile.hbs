@@ -6,8 +6,11 @@
   {{#if title}}
     <h3 class="subheading">{{title}}</h3>
   {{/if}}
+  {{#if note}}
+    <p class="note"><small>{{{note}}}</small></p>
+  {{/if}}
   {{#if description}}
-    {{{description}}}
+    <p class="description">{{{description}}}</p>
   {{/if}}
 
   {{#if img}}

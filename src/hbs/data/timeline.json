@@ -6,11 +6,11 @@
         "left": [
           {
             "title": "Open Reply UK",
-            "description": "<p>In 2014 I left Artlogic Media Ltd and joined Open Reply UK as Mobile Frontend Developer.</p>"
+            "description": "In 2014 I left Artlogic Media Ltd and joined Open Reply UK as Mobile Frontend Developer."
           },
           {
             "title": "M101JS: MongoDB for Node.js Developers",
-            "description": "<p class='text-centered'>Completed MongoDB University course.</p>",
+            "description": "Completed MongoDB University course.",
             "img": {
               "file": "mongo.png",
               "title": "Google Analytics Platform Principles certificate",
@@ -25,7 +25,7 @@
         "right": [
           {
             "title": "Google Analytics Platform Principles",
-            "description": "<p class='text-centered'>Completed Google Analytics Academy course.</p>",
+            "description": "Completed Google Analytics Academy course.",
             "img": {
               "file": "googleanalytics2.png",
               "title": "Google Analytics Platform Principles certificate",
@@ -38,7 +38,7 @@
           },
           {
             "title": "JPotapova.info",
-            "description": "<p class='text-centered'>Developed portfolio website.</p>"
+            "description": "Developed portfolio website."
           }
         ]
       }
@@ -50,7 +50,8 @@
         "left": [
           {
             "title": "Kamel Lazaar Foundation",
-            "description": "<p class='text-centered'><small>*developed while working in Artlogic</small></p><p>Multi-lingual and multi-directional (English/Arabic), sliders, filters and intergration with Artlogic Online, categorisation and tagging.</p>",
+            "note": "*developed while working in Artlogic",
+            "description": "Multi-lingual and multi-directional (English/Arabic), sliders, filters and intergration with Artlogic Online, categorisation and tagging.",
             "img": {
               "file": "klf.png",
               "title": "Kamel Lazaar Foundation",
@@ -64,7 +65,8 @@
           },
           {
             "title": "Artlogic Online Inventory System",
-            "description": "<p class='text-centered'><small>*contributed to while working in Artlogic</small></p><p>Online database for art galleries with very rich functionality, including advanced searching mechanism, generating reports, documents, etc.</p>",
+            "note": "*contributed to while working in Artlogic",
+            "description": "Online database for art galleries with very rich functionality, including advanced searching mechanism, generating reports, documents, etc.",
             "img": {
               "file": "artlogiconline.png",
               "title": "Artlogic Online",
@@ -79,7 +81,8 @@
           },
           {
             "title": "Booktrust",
-            "description": "<p class='text-centered'><small>*massively contributed while working in Artlogic</small></p><p>Incredibly rich functionality website, lots of of javascript effects, complicated advanced searches, integration with external donations systems, password protected areas, Excel document generators, PDF document generators, etc.</p>",
+            "note": "*massively contributed while working in Artlogic",
+            "description": "Incredibly rich functionality website, lots of of javascript effects, complicated advanced searches, integration with external donations systems, password protected areas, Excel document generators, PDF document generators, etc.",
             "img": {
               "file": "booktrust.png",
               "title": "Booktrust",
@@ -93,7 +96,7 @@
           },
           {
             "title": "Pori Drwy Stori",
-            "description": "<p class='text-centered'><small>*developed while working in Artlogic</small></p>",
+            "note": "*developed while working in Artlogic",
             "img": {
               "file": "poridrwystori.png",
               "classes": "border-top",
@@ -107,7 +110,8 @@
           },
           {
             "title": "Prince's School of Traditional Arts",
-            "description": "<p class='text-centered'><small>*massively contributed while working in Artlogic</small></p><p>A website with a shopping cart and integration with WorldPay</p>",
+            "note": "*massively contributed while working in Artlogic",
+            "description": "A website with a shopping cart and integration with WorldPay",
             "img": {
               "file": "psta.png",
               "title": "Prince's School of Traditional Arts",
@@ -120,7 +124,8 @@
           },
           {
             "title": "Sleep Better Method",
-            "description": "<p class='text-centered'><small>*developed while working in Artlogic</small></p><p class='text-centered'>Simple responsive website</p>",
+            "note": "*developed while working in Artlogic",
+            "description": "Simple responsive website",
             "img": {
               "file": "sleepbettermethod.png",
               "title": "Sleep Better Method",
@@ -136,7 +141,8 @@
         "right": [
           {
             "title": "Custom Select for Twitter Bootstrap",
-            "description": "<p class='text-centered'><small>*side project</small></p><p>Two jQuery plugins for Twitter Bootstrap 2 and 3 accordingly. Implemented custom select and typeahead functionality, both plugins are <a href='http://codecanyon.net/user/LisaStoz/portfolio' target='_blank' class='external'><span class='label'>available on CodeCanyon</span><i class='fa fa-external-link'></i></a>. Both have a decent amount of sales and very positive feedback.</p>",
+            "note": "*side project",
+            "description": "Two jQuery plugins for Twitter Bootstrap 2 and 3 accordingly. Implemented custom select and typeahead functionality, both plugins are available on CodeCanyon. Both have a decent amount of sales and very positive feedback.",
             "img": {
               "file": "customselect.jpg",
               "title": "Custom Select Plugin",
@@ -157,7 +163,8 @@
           },
           {
             "title": "DateTimePicker",
-            "description": "<p class='text-centered'><small>*side project</small></p><p>Free jQuery plugin I made (used <a href='http://momentjs.com/'' target='_blank' class='external'><span class='label'>Moment.js</span><i class='fa fa-external-link'></i></a> as well) implementing date and time functionality with mobile-style user interface.</p>",
+            "note": "*side project",
+            "description": "Free jQuery plugin I made based on Moment.js - date and time functionality with mobile-style user interface.",
             "img": {
               "file": "datetimepicker.png",
               "title": "DateTimePicker plugin",
@@ -171,7 +178,8 @@
           },
           {
             "title": "Fare Calculator",
-            "description": "<p class='text-centered'><small>*side project</small></p><p>Non-profit project, makes travel on London Public Transport cost calculation and comparison, uses Journey Planner TFL API, interface heavily relies on Twitter Bootstrap 2.</p>",
+            "note": "*side project",
+            "description": "Non-profit project, makes travel on London Public Transport cost calculation and comparison, uses Journey Planner TFL API, interface heavily relies on Twitter Bootstrap 2.",
             "img": {
               "file": "farecalculator.png",
               "classes": "border-top border-bottom",
@@ -185,7 +193,8 @@
           },
           {
             "title": "Lisa Stoz",
-            "description": "<p class='text-centered'><small>*side project</small></p><p>Simple website, where I started describing side projects I am working on, useful code snippets and thoughts. Originally built with LESS, but later migrated to Ghost blogging platform and set up on Amazon EC2.</p>",
+            "note": "*side project",
+            "description": "Simple website, where I started describing side projects I am working on, useful code snippets and thoughts. Originally built with LESS, but later migrated to Ghost blogging platform and set up on Amazon EC2.",
             "img": {
               "file": "lisastoz2.png",
               "title": "Lisa Stoz",
@@ -198,14 +207,14 @@
             }
           },
           {
-            "description": "<p>Joined CodeWars, keep solving Javascript puzzles.</p>",
+            "description": "Joined CodeWars, keep solving Javascript puzzles.",
             "link": {
               "address": "http://www.codewars.com/users/LisaStoz",
               "label": "See my profile"
             }
           },
           {
-            "description": "<p>Joined <a href='http://www.codebar.io' target='_blank' class='external'><span class='label'>Codebar.io</span><i class='fa fa-external-link'></i></a> and started coaching ladies on programming skills.</p>",
+            "description": "Joined Codebar.io and started coaching ladies on programming skills.",
             "link": {
               "address": "http://www.codebar.io/coaches",
               "label": "See me on the wall of fame"
@@ -213,7 +222,7 @@
           },
           {
             "title": "Digital Analytics Fundamentals",
-            "description": "<p>Completed Google Analytics Academy course</p>",
+            "description": "Completed Google Analytics Academy course",
             "img": {
               "file": "googleanalytics.png",
               "title": "Google Analytics certificate",
@@ -227,7 +236,7 @@
           },
           {
             "title": "Mind Sports Olympiad",
-            "description": "<p>Took part in Mind Sports Olympiad, Computer Programming competition. Participants were given about 3.5 hours to complete 4 algorithmic tasks. I took 4th place.</p>",
+            "description": "Took part in Mind Sports Olympiad, Computer Programming competition. Participants were given about 3.5 hours to complete 4 algorithmic tasks. I took 4th place.",
             "link": {
               "address": "http://www.msoworld.com/2013/05/computer-programming-compeition/",
               "label": "Visit competition website"
@@ -243,7 +252,8 @@
         "left": [
           {
             "title": "Bookbuzz",
-            "description": "<p class='text-centered'><small>*massively contributed while working in Artlogic</small></p><p>Books carousel, variuos sliders, bookfinder, dynamically generated e-cards, password protected area</p>",
+            "note": "*massively contributed while working in Artlogic",
+            "description": "Books carousel, variuos sliders, bookfinder, dynamically generated e-cards, password protected area",
             "img": {
               "file": "bookbuzz.png",
               "title": "Bookbuzz",
@@ -257,7 +267,8 @@
           },
           {
             "title": "Bookstart",
-            "description": "<p class='text-centered'><small>*massively contributed while working in Artlogic</small></p><p>Advanced recurring events search, sliders, dynamically generated e-cards, password protected areas, dynamic PDF generators</p>",
+            "note": "*massively contributed while working in Artlogic",
+            "description": "Advanced recurring events search, sliders, dynamically generated e-cards, password protected areas, dynamic PDF generators",
             "img": {
               "file": "bookstart.png",
               "title": "Bookstart",
@@ -271,7 +282,8 @@
           },
           {
             "title": "The Copper House Gallery",
-            "description": "<p class='text-centered'><small>*massively contributed while working in Artlogic</small></p><p>Shopping cart and integration with WorldPay</p>",
+            "note": "*massively contributed while working in Artlogic",
+            "description": "Shopping cart and integration with WorldPay",
             "img": {
               "file": "copperhouse.png",
               "classes": "border-top border-bottom",
@@ -287,7 +299,8 @@
         "right": [
           {
             "title": "Waldon Energy",
-            "description": "<p class='text-centered'><small>*side project, in collaboration with 4spin.eu team</small></p><p>Redeveloped: applied new design and added new features, e.g. slideshow, countdown counter, accordion in the news section - all manually developed with jQuery, live data feed. Earlier I developed this site in 2010.</p>",
+            "note": "*side project, in collaboration with 4spin.eu team",
+            "description": "Redeveloped: applied new design and added new features, e.g. slideshow, countdown counter, accordion in the news section - all manually developed with jQuery, live data feed. Earlier I developed this site in 2010.",
             "img": {
               "file": "waldonenergy.png",
               "classes": "border-top",
@@ -298,10 +311,6 @@
               "address": "http://waldonenergy.co.uk",
               "label": "Visit website"
             }
-          },
-          {
-            "title": "Fare Calculator",
-            "description": "<p class='text-centered'><small>*side project</small></p><p>Started working on Fare Calculator, which was finished and <a href='#fare-calculator'>launched later in 2013</a>.</p>"
           },
           {
             "title": "Jenna Burligham Fine Art",
