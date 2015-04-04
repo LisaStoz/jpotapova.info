@@ -314,7 +314,8 @@
           },
           {
             "title": "Jenna Burligham Fine Art",
-            "description": "<p class='text-centered'><small>*contributed while working in Artlogic</small></p><p>Artworks categorisation and integration with Artlogic Online</p>",
+            "note": "*contributed while working in Artlogic",
+            "description": "Artworks categorisation and integration with Artlogic Online",
             "img": {
               "file": "jennaburlingham.png",
               "classes": "border-top border-bottom",
@@ -328,7 +329,7 @@
           },
           {
             "title": "Artlogic CMS",
-            "description": "<p class='text-centered'><small>*massively contributed while working in Artlogic</small></p>",
+            "note": "*massively contributed while working in Artlogic",
             "link": {
               "address": "http://www.artlogiconline.com/",
               "label": "Read about Artlogic CMS"
@@ -343,7 +344,8 @@
         "left": [
           {
             "title": "Ibraaz",
-            "description": "<p class='text-centered'><small>*developed while working in Artlogic</small></p><p>News portal with advanced search, manually developed slideshow, automatic article relation based on tags, twitter feed.</p>",
+            "note": "*developed while working in Artlogic",
+            "description": "News portal with advanced search, manually developed slideshow, automatic article relation based on tags, twitter feed.",
             "img": {
               "file": "ibraaz.png",
               "classes": "border-top border-bottom",
@@ -357,7 +359,8 @@
           },
           {
             "title": "Letterbox Club",
-            "description": "<p class='text-centered'><small>*massively contributed while working in Artlogic</small></p><p>Sliders, password-protected areas, TheyWorkForYou feed, etc.</p>",
+            "note": "*massively contributed while working in Artlogic",
+            "description": "Sliders, password-protected areas, TheyWorkForYou feed, etc.",
             "img": {
               "file": "letterboxclub.png",
               "classes": "border-top",
@@ -371,13 +374,14 @@
           },
           {
             "title": "Job",
-            "description": "<p>Moved to London and started working in <a href='http://www.artlogic.net' target='_blank' class='external'><span class='label'>Artlogic Media Ltd</span><i class='fa fa-external-link'></i></a>, where I was developing websites, doing complex data imports, contributing to CMS and Art Gallery database system development. Here I worked with Python, Pylons, MySQL, HTML5, CSS3, jQuery.</p>"
+            "description": "Moved to London and started working in Artlogic Media Ltd, where I was developing websites, doing complex data imports, contributing to CMS and Art Gallery database system development. Here I worked with Python, Pylons, MySQL, HTML5, CSS3, jQuery."
           }
         ],
         "right": [
           {
             "title": "Booktime",
-            "description": "<p class='text-centered'><small>*developed while working in Artlogic</small></p><p>Various sliders, carousel, animated Booky character, voting, etc.</p>",
+            "note": "*developed while working in Artlogic",
+            "description": "Various sliders, carousel, animated Booky character, voting, etc.",
             "img": {
               "file": "booktime.png",
               "title": "Booktime",
@@ -390,7 +394,8 @@
           },
           {
             "title": "Children's Laureate",
-            "description": "<p class='text-centered'><small>*developed while working in Artlogic</small></p><p>Sliders, twitter API, voting, etc.</p>",
+            "note": "*developed while working in Artlogic",
+            "description": "Sliders, twitter API, voting, etc.",
             "img": {
               "file": "childrenslaureate.png",
               "title": "Childrens Laureate",
@@ -410,21 +415,23 @@
         "left": [
           {
             "title": "Waldon Energy",
-            "description": "<p class='text-centered'><small>*freelance project</small></p><p>Developed and launched waldon energy website, which I <a href='#waldon-energy'>later re-developed in 2012</a>.</p>"
+            "note": "*freelance project",
+            "description": "Developed and launched waldon energy website, which I later re-developed in 2012."
           },
           {
             "title": "Adverts Campaigns Managing system",
-            "description": "<p class='text-centered'><small>*freelance project</small></p><p>Developed an advanced adverts playlist generator system for <a href='http://www.bgs.aero/' target='_blank' class='external'><span class='label'>Baltic Ground Services</span><i class='fa fa-external-link'></i></a>. Generated adverts queue is currently displayed on one of TV devices in Vilnius Airport. The system helps managing advert campaigns and generates playlists every day depending on each advert length and timing settings, such as how many times per hour or per day an advert must be shown, accepts more complex settings, such as which hours exactly an advert should be shown, which day of the week, etc. The project was developed with PHP.</p>"
+            "note": "*freelance project",
+            "description": "Developed an advanced adverts playlist generator system for Baltic Ground Services. Generated adverts queue is currently displayed on one of TV devices in Vilnius Airport. The system helps managing advert campaigns and generates playlists every day depending on each advert length and timing settings, such as how many times per hour or per day an advert must be shown, accepts more complex settings, such as which hours exactly an advert should be shown, which day of the week, etc. The project was developed with PHP."
           },
           {
             "title": "Job",
-            "description": "  <p>Left UAB 'Bonus Optimus' and started working on freelance projects.</p>"
+            "description": "Left UAB 'Bonus Optimus' and started working on freelance projects."
           }
         ],
         "right": [
           {
             "title": "Drabuziu Taisykla",
-            "description": "<p>Developed a static website for my mother - self-employed tailor.</p><p>Website achieved stunning organic search results among tailor companies and specialists in Lithuania.</p>",
+            "description": "Developed a static website for my mother - self-employed tailor.Website achieved stunning organic search results among tailor companies and specialists in Lithuania.",
             "img": {
               "file": "drabuziutaisykla.png",
               "title": "Drabuziu Taisykla",
@@ -438,11 +445,12 @@
           },
           {
             "title": "Graduation",
-            "description": "<p>Graduated from <a href='http://mif.vu.lt/en2/' target='_blank' class='external'><span class='label'>Vilnius University</span><i class='fa fa-external-link'></i></a> and received Bachelor's degree in computer science.</p>"
+            "description": "Graduated from Vilnius University and received Bachelor's degree in computer science."
           },
           {
             "title": "Steganographic methods",
-            "description": "<p class='text-centered'><small>*academic project</small></p><p>Using Java developed a set of applications implementing various steganographic methods.</p>"
+            "note": "*academic project",
+            "description": "Using Java developed a set of applications implementing various steganographic methods."
           }
         ]
       }
@@ -453,7 +461,8 @@
         "left": [
           {
             "title": "Treenex",
-            "description": "<p class='text-centered'><small>*massively contributed while working in Bonus Optimus.</small></p><p>Website (initially a mini social network) where a greeting card can be purchased. For each greeting card a tree gets planted and buyers can login and watch the photos of their trees growing.</p>",
+            "note": "*massively contributed while working in Bonus Optimus",
+            "description": "Website (initially a mini social network) where a greeting card can be purchased. For each greeting card a tree gets planted and buyers can login and watch the photos of their trees growing.",
             "img": {
               "file": "treenex.png",
               "title": "Treenex",
@@ -466,7 +475,8 @@
           },
           {
             "title": "Decovil",
-            "description": "<p class='text-centered'><small>*developed while working in Bonus Optimus.</small></p><p>Curtains specialist</p>",
+            "note": "*developed while working in Bonus Optimus",
+            "description": "Curtains specialist",
             "img": {
               "file": "decovil.png",
               "title": "Decovil",
@@ -480,7 +490,8 @@
           },
           {
             "title": "Pasyvūs Namai",
-            "description": "<p class='text-centered'><small>*developed while working in Bonus Optimus.</small></p><p>Company building ecologically efficient houses.</p>",
+            "note": "*developed while working in Bonus Optimus",
+            "description": "Company building ecologically efficient houses.",
             "img": {
               "file": "pasyvusnamai.png",
               "title": "Pasyvūs Namai",
@@ -493,13 +504,14 @@
           },
           {
             "title": "Job",
-            "description": "<p>Left UAB 'AskoBaltis' and started working in UAB 'Bonus Optimus' (trademark BBQ.lt). In Bonus Optimus I used PHP, CodeIgniter Framework, MySQL, HTML, CSS, Javascript, jQuery, AJAX, worked on variuos websites and CMS.</p>"
+            "description": "Left UAB 'AskoBaltis' and started working in UAB 'Bonus Optimus' (trademark BBQ.lt). In Bonus Optimus I used PHP, CodeIgniter Framework, MySQL, HTML, CSS, Javascript, jQuery, AJAX, worked on variuos websites and CMS."
           }
         ],
         "right": [
           {
             "title": "Ekokarta",
-            "description": "<p class='text-centered'><small>*massively contributed while working in Bonus Optimus.</small></p><p>Ecological initiative</p>",
+            "note": "*massively contributed while working in Bonus Optimus",
+            "description": "Ecological initiative",
             "img": {
               "file": "ekokarta.png",
               "title": "Ekokarta",
@@ -511,15 +523,17 @@
             }
           },
           {
-            "description": "<p>Learnt UML and MDA.</p>"
+            "description": "Learnt UML and MDA."
           },
           {
             "title": "Computer emulator and OS",
-            "description": "<p class='text-centered'><small>*academic project</small></p><p>Using Borland Delphi developed a computer emulator and operating system for it. Operating system was able to run basic  programs written in specific assembler-like language, accept input it provide output. It was demonstrating how it is using its internal resources.</p>"
+            "note": "*academic project",
+            "description": "Using Borland Delphi developed a computer emulator and operating system for it. Operating system was able to run basic  programs written in specific assembler-like language, accept input it provide output. It was demonstrating how it is using its internal resources."
           },
           {
             "title": "Mažoji Mokyklėlė",
-            "description": "<p class='text-centered'><small>*developed while working in Bonus Optimus.</small></p><p>Saturday school for children</p>",
+            "note": "*developed while working in Bonus Optimus",
+            "description": "Saturday school for children",
             "img": {
               "file": "mazojimokyklele.png",
               "title": "Mažoji Mokyklėlė",
@@ -532,7 +546,8 @@
           },
           {
             "title": "TSP-legal",
-            "description": "<p class='text-centered'><small>*developed while working in Bonus Optimus.</small></p><p>Multi-lingual website for law specialist</p>",
+            "note": "*developed while working in Bonus Optimus",
+            "description": "Multi-lingual website for law specialist",
             "img": {
               "file": "tsplegal.png",
               "title": "TSP Legal",
@@ -552,7 +567,8 @@
         "left": [
           {
             "title": "Naudoti Auto",
-            "description": "<p class='text-centered'><small>*massively contributed while working in Askobaltis.</small></p><p>Catalogue website for car retailer, includes gallery and dynamic pdf generator</p>",
+            "note": "*massively contributed while working in Askobaltis",
+            "description": "Catalogue website for car retailer, includes gallery and dynamic pdf generator",
             "img": {
               "file": "naudotiauto.png",
               "classes": "border-bottom border-top",
@@ -566,7 +582,8 @@
           },
           {
             "title": "Think Shop",
-            "description": "<p class='text-centered'><small>*massively contributed while working in Askobaltis.</small></p><p>E-commerce website for Lenovo retailer</p>",
+            "note": "*massively contributed while working in Askobaltis",
+            "description": "E-commerce website for Lenovo retailer",
             "img": {
               "file": "thinkshop.png",
               "classes": "border-bottom",
@@ -580,7 +597,8 @@
           },
           {
             "title": "Credo Baldai",
-            "description": "<p class='text-centered'><small>*developed while working in Askobaltis.</small></p><p>Furniture retailer, includes basic slideshow and lightbox gallery</p>",
+            "note": "*developed while working in Askobaltis",
+            "description": "Furniture retailer, includes basic slideshow and lightbox gallery",
             "img": {
               "file": "credobaldai.png",
               "title": "Credo Baldai",
@@ -593,7 +611,8 @@
           },
           {
             "title": "BTService",
-            "description": "<p class='text-centered'><small>*developed while working in Askobaltis.</small></p><p>Multi-lingual website for a steel pipes specialist company</p>",
+            "note": "*developed while working in Askobaltis",
+            "description": "Multi-lingual website for a steel pipes specialist company",
             "img": {
               "file": "btservice.png",
               "title": "BT Service",
@@ -606,13 +625,14 @@
           },
           {
             "title": "Job",
-            "description": "<p>Started working at UAB 'Askobaltis' as Junior web developer. Used PHP, MySQL, HTML, CSS, JavaScript, jQuery, AJAX, MooTools, Zend Framework. Worked on various websites and CMS.</p>"
+            "description": "Started working at UAB 'Askobaltis' as Junior web developer. Used PHP, MySQL, HTML, CSS, JavaScript, jQuery, AJAX, MooTools, Zend Framework. Worked on various websites and CMS."
           }
         ],
         "right": [
           {
             "title": "Oilio",
-            "description": "<p class='text-centered'><small>*side project, developed together with coursemate</small></p><p>Multi-lingual website for a company specialising in edible oil wholesale.</p><p class='text-centered'><small>*now it is rebranded and redeveloped by another company</small></p>",
+            "note": "*side project, developed together with coursemate, now it is rebranded and redeveloped by another company",
+            "description": "Multi-lingual website for a company specialising in edible oil wholesale.",
             "link": {
               "address": "http://www.oilio.lt/",
               "label": "Visit current website"
@@ -620,14 +640,16 @@
           },
           {
             "title": "Language and translator application",
-            "description": "<p class='text-centered'><small>*academic project</small></p><p>Using Java created an artificial procedural language and developed a translator for it.</p>"
+            "note": "*academic project",
+            "description": "Using Java created an artificial procedural language and developed a translator for it."
           },
           {
-            "description": "<p>Learnt to Program in Java</p><p>Learnt SQL and relational databases</p><p>Learnt to Program in Oracle PL/SQL</p><p>Learnt to Program in Prolog</p>"
+            "description": "Learnt to Program in Java, learnt SQL and relational databases, learnt to program in Oracle PL/SQ, learnt to program in Prolog"
           },
           {
             "title": "Office Guru",
-            "description": "<p class='text-centered'><small>*massively contributed while working in Askobaltis.</small></p><p>E-commerce website for office supplier retailer</p>",
+            "note": "*massively contributed while working in Askobaltis",
+            "description": "E-commerce website for office supplier retailer",
             "img": {
               "file": "officeguru.png",
               "title": "Office Guru",
@@ -641,7 +663,8 @@
           },
           {
             "title": "Aromabalt",
-            "description": "<p class='text-centered'><small>*massively contributed while working in Askobaltis.</small></p><p>Catalogue website for aromatherapy products retailer</p>",
+            "note": "*massively contributed while working in Askobaltis",
+            "description": "Catalogue website for aromatherapy products retailer",
             "img": {
               "file": "aromabalt.png",
               "classes": "border-top",
@@ -655,7 +678,8 @@
           },
           {
             "title": "Umeja",
-            "description": "<p class='text-centered'><small>*developed while working in Askobaltis.</small></p><p>Multi-lingual website for transportation company</p>",
+            "note": "*developed while working in Askobaltis",
+            "description": "Multi-lingual website for transportation company",
             "img": {
               "file": "umeja.png",
               "classes": "border-top border-bottom",
@@ -675,16 +699,17 @@
       "tiles": {
         "left": [
           {
-            "description": "<p>Learnt to Program in C</p><p>Learnt to Program in C++</p><p>Learnt to Program in Assembler</p>"
+            "description": "Learnt to Program in C, C++, Assembly"
           },
           {
-            "description": "<p>Joined Vilnius University Students' Representation community and contributed to developing an online strategy game using PHP, MySQL, HTML, CSS.</p>"
+            "description": "Joined Vilnius University Students' Representation community and contributed to developing an online strategy game using PHP, MySQL, HTML, CSS."
           }
         ],
         "right": [
           {
             "title": "Server/Client Chess app",
-            "description": "<p class='text-centered'><small>*academic project</small></p><p>Using C developed a system consisting of server application and client application. Two client applications were able to connect through server application and play chess. Server validated chess moves.</p>"
+            "note": "*academic project",
+            "description": "Using C developed a system consisting of server application and client application. Two client applications were able to connect through server application and play chess. Server validated chess moves."
           }
         ]
       }
@@ -695,12 +720,12 @@
         "left": [
           {
             "title": "Education",
-            "description": "<p>Completed school with honours and entered Computer Science programme in <a href='http://mif.vu.lt/en2/' target='_blank' class='external'><span class='label'>Vilnius University</span><i class='fa fa-external-link'></i></a>.</p>"
+            "description": "Completed school with honours and entered Computer Science programme in Vilnius University"
           }
         ],
         "right": [
           {
-            "description": "<p>Joined algorithmisation seminar in Vilnius University and started taking part in <a href='http://www.opencup.ru' target='_blank' class='external'><span class='label'>International Open Cup programming competition</span><i class='fa fa-external-link'></i></a>.</p>"
+            "description": "Joined algorithmisation seminar in Vilnius University and started taking part in International Open Cup programming competition."
           }
         ]
       }
@@ -711,7 +736,8 @@
         "right": [
           {
             "title": "Morse code recognision speed trainer",
-            "description": "<p class='text-centered'><small>*personal idea and implemention</small></p><p>Developed an app in Turbo Pascal, which was producing sound in morse code format based on supplied text and speed in characters-per-minute. I used it as a preparation tool for telegraphy competitions.</p>"
+            "note": "*personal idea and implemention",
+            "description": "Developed an app in Turbo Pascal, which was producing sound in morse code format based on supplied text and speed in characters-per-minute. I used it as a preparation tool for telegraphy competitions."
           }
         ]
       }
@@ -721,7 +747,7 @@
       "tiles": {
         "left": [
           {
-            "description": "<p>Kept admiring programming and getting perfect grades. Also took part in school/city programming olympiads.</p>"
+            "description": "Kept admiring programming and getting perfect grades. Also took part in school/city programming olympiads."
           }
         ]
       }
@@ -731,7 +757,7 @@
       "tiles": {
         "left": [
           {
-            "description": "<p>At the age of 13 first learnt about programming in school. We were taught Turbo Pascal.</p>"
+            "description": "At the age of 13 first learnt about programming in school. We were taught Turbo Pascal."
           }
         ]
       }
