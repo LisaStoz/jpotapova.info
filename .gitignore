@@ -1,8 +1,0 @@
-node_modules
-app/**
-!app/img**
-npm-debug.log
-src/vendor
-sassdoc
-.sass-cache
-.DS_Store
