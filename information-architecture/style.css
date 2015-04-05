@@ -29,3 +29,11 @@ td, th {
 .subtable tr:last-child td {
   border-bottom: none;
 }
+
+.description {
+  min-width: 400px;
+}
+
+.title {
+  min-width: 200px;
+}
