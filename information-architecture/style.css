@@ -1,0 +1,30 @@
+body, table {
+  line-height: 1.5em;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.subtable td:first-child,
+.subtable th:first-child{
+  border-left: none;
+}
+
+.subtable td:last-child,
+.subtable th:last-child{
+  border-right: none;
+}
+
+.subtable thead th {
+  border-top: none;
+}
+
+.subtable tr:last-child td {
+  border-bottom: none;
+}
